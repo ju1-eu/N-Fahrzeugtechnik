@@ -1,0 +1,576 @@
+%ju 13-Aug-22 03-Fuellungsoptimierung-I.tex
+\section{Downsizing (Prüfung)}\label{downsizing-pruefung}
+
+Verkleinerung der Motoren (Hubraum und Zylinderzahl) bei gleicher
+Leistung.
+
+\section{LSPI - Low
+Speed-Pre-Ignition}\label{lspi-low-speed-pre-ignition}
+
+LSPI = vorzeitige Zündung, betrifft hoch aufgeladene Downsizing Motoren
+\footnote{\url{https://www.autobild.de/artikel/lspi-vorzeitige-zuendung-16385077.html}}
+
+\begin{itemize}
+\item
+  \textbf{Turbo aufgeladene Motoren}
+
+  \begin{itemize}
+  \item
+    geringes Verdichtungsverhältnis (7-8:1)
+  \item
+    vor verdichtete Luft wird in den Zylinder eingeblasen und verdichtet
+  \item
+    Ladedruckregelung (Lastwunsch)
+  \item
+    vorgewärmte Luft (Ladeluftkühlung)
+  \end{itemize}
+\item
+  vs.~\textbf{hoch verdichtete Saugmotoren}
+
+  \begin{itemize}
+  \item
+    hohes Verdichtungsverhältnis (10-11:1), endet bei Klopfgrenze
+  \end{itemize}
+\end{itemize}
+
+\textbf{Zwei Zündquellen, Ursache für die Selbstentzündung}
+
+\begin{enumerate}
+\item
+  Niedergeschlagen Kraftstoff in Verbindung mit sehr niedrig Viskoses Öl
+
+  \begin{itemize}
+  \item
+    $\to$ ein brennbares Gemisch entsteht, mit einer nicht ganz
+    bekannten Selbstentzündungstemperatur
+  \end{itemize}
+\item
+  Ölkohlerückstände (Kraftstoffreste) im Bereich der Einspritzdüsen
+\end{enumerate}
+
+Durch eine überhohe Verdichtung $\to$ steigt Verdichtungsenddruck und
+damit Verdichtungstemperatur $\to$ dadurch hohe thermische Belastung.
+Die Folge ist ein kapitaler Motorschaden.
+
+\textbf{Körnerschlag} \footnote{\url{https://cdn.germanscooterforum.de/monthly_05_2009/post-24449-1241606436.jpg}}
+Kolbenschäden $\to$ es entsteht eine Druckspritze bevor der Kolben OT
+erreicht, eine zweite Flammenfront entsteht, wenn jetzt zwei
+Flammfronten aufeinandertreffen, entstehen sehr hohe Druckspitzen, auch
+wenn der Kolben nach UT geht.
+
+\textbf{Kavitation} \footnote{\url{https://prozesstechnik.industrie.de/wp-content/uploads/4/0/40278086.jpg}}
+Dampfblasenbildung \footnote{\url{https://www.youtube.com/watch?v=SEGTFbZ5RJ8}}
+z. B. Bootsschraube saugt Flüssigkeiten an, Druck fällt ab durch
+Unterdruck, wenn jetzt die Gasblasen implodieren, entstehen sog.
+Mikrojets $\to$ Druckspitzen.
+
+\section{Vorteile von Downsizing
+Motoren}\label{vorteile-von-downsizing-motoren}
+
+\begin{enumerate}
+\item
+  Geringere Pumpverluste (2 l vs.~1,2 l bei gleicher Leistung 150 PS)
+\item
+  geringere Reibungsverluste aufgrund der geringeren Größe
+\item
+  weniger Wärmeübertrag von Gasen zur Zylinderwandung
+\end{enumerate}
+
+\section{Mehrventiltechnik}\label{mehrventiltechnik}
+
+Fachbuch (\textcite{respondeck:2019:servicetechniker} S. 141)
+
+Um die Zylinderfüllung zu verbessern, werden drei oder mehr Ventile pro
+Zylinder in Verbrennungsmotoren eingesetzt.
+
+\textbf{Ziele von Mehrventiltechnik}
+
+\begin{itemize}
+\item
+  Öffnungsquerschnitt der Ventile vergrößern, ohne die
+  Drehzahlfestigkeit durch größere und damit trägere Ventile (mehr
+  Masse) zu mindern.
+\end{itemize}
+
+\textbf{Vor- und Nachteile von Mehrventiltechnik}
+
+\begin{itemize}
+\item
+  bessere Zylinderfüllung
+\item
+  Drehzahlfest
+\item
+  innere Reibung steigt
+\item
+  Abgaswärmeentzug
+
+  \begin{itemize}
+  \item
+    Der Katalysator kommt schlechter auf Betriebstemperatur, da sich die
+    Abgase an den Abgasrohren abkühlen können.
+  \item
+    Je mehr Auslassventile vorhanden sind, desto größer ist die
+    Oberfläche der Abgasrohre und desto mehr kühlen die Abgase aus.
+  \end{itemize}
+\end{itemize}
+
+Honda NR 750 - Ovalkolben \footnote{\url{https://de.wikipedia.org/wiki/Honda_NR_750}}
+
+\textbf{Dreiventiltechnik} (Vorteile)
+
+\begin{itemize}
+\item
+  Verbrennungsdruck steigt (kürzere Flammwege)
+\item
+  geringere Klopfneigung (weniger Zeit zur Gemischerwärmung vor
+  Verbrennungsbeginn)
+\item
+  Ausstoß unverbrannter Kohlenwasserstoffe verringert sich (Zündkerze
+  ist in der Nähe der Zylinderwand, wo das Kondensat lagert)
+\item
+  geringere NOx
+\end{itemize}
+
+Vgl. Kapitel >>\emph{Motorsteuerung / Dreiventiltechnik mit zwei
+Zündkerzen}<<
+
+\section{Nockenwellenverstellung - variable
+Steuerzeiten}\label{nockenwellenverstellung-variable-steuerzeiten}
+
+Fachbuch (\textcite{brand:2020:fachkundeKfz} S. 249)
+
+Verdrehen der Einlassnockenwelle bzw. der Ein- und Auslassnockenwelle,
+abhängig von der Motordrehzahl, Motorlast und Temperatur. Hierdurch
+lässt sich die \emph{Länge der Ventilüberschneidung} anpassen.
+
+\textbf{Warum machen wir eine Nockenwellenverstellung?} (Vorteile)
+
+\begin{enumerate}
+\item
+  Optimale Zylinderfüllung in den unterschiedlichen Last- und
+  Drehzahlbereichen zu ermöglichen
+\item
+  inneres AGR
+\end{enumerate}
+
+\textbf{Ziele der Nockenwellenverstellung}
+
+\begin{itemize}
+\item
+  Wann das Ventil öffnet und schließt zu beeinflussen (variabel)
+\item
+  bei gleichbleibenden Nocken, Dauer und Öffnungswinkel (Hub) ändern
+  sich nicht
+\item
+  Verdrehrichtung der Nockenwelle: Früh, Spät
+\end{itemize}
+
+\textbf{Verstellung der Einlassnockenwelle in Abhängigkeit vom
+Betriebszustand}
+
+\begin{table}[!ht]% hier: !ht 
+\centering 
+	\caption{}% \label{tab:}%% anpassen 
+\begin{tabular}{@{}llll@{}}
+\hline
+\textbf{Betriebszustand} & \textbf{Leerlauf} & \textbf{Teillast} &
+\textbf{Volllast} \\
+\hline
+Verstellrichtung NW & Spät & Früh & Spät \\
+Ventilüberschneidung & klein & groß & klein \\
+Abgas & CO sinkt & NOx sinkt & \\
+EV schließt & weit nach UT & kurz nach UT & weit nach UT \\
+\hline
+\end{tabular} 
+\end{table}
+
+Merkmale (Vgl. Tabelle Verstellung der Einlassnockenwelle in
+Abhängigkeit vom Betriebszustand)
+
+\begin{itemize}
+\item
+  \textbf{Leerlauf} Kein Überströmen von Frischgasen und Abgasen,
+  besserer Verbrennungsverlauf
+\item
+  \textbf{Teillast} Abgase strömen in den Einlasskanal und werden mit
+  den Frischgasen angesaugt. Temperatur sinkt, NOx-Anteil sinkt
+\item
+  \textbf{Volllast} \emph{Nachladeeffekt} Frischgase strömen trotz
+  aufwärts gehenden Kolben in den Zylinder nach
+\end{itemize}
+
+\textbf{Ausgangspunkt} $\to$ 90er-Jahre, erste Form des AGR (inneres
+AGR), Drei-Wege-Katalysator, Ottomotor, Euro 2, Teillast (höchste
+AGR-Rate, 80 km/h auf der Landstraße, keine Lastabfrage,
+Spritspareffekt, NOx-Anteil senken)
+
+\subsection{VarioCam - Verstellbarer Kettenspanner (Audi,
+VW)}\label{variocam-verstellbarer-kettenspanner-audi-vw}
+
+$\to$ Verändern der Ventilöffnungszeit der Einlassnockenwelle
+
+\textbf{Wie?} Vgl. Tabelle Verstellung der Einlassnockenwelle in
+Abhängigkeit vom Betriebszustand
+
+\begin{itemize}
+\item
+  KW treibt Auslass-NW an und diese über einer Kette die Einlass-NW
+\item
+  \textbf{Kettenspanner} spannt \textbf{Kette nach oben} (federbelastet)
+\item
+  \textbf{NW} dreht sich \textbf{gegen UZS} (Uhrzeigersinn) in
+  \textbf{Verstellposition} >>spät<< (Ausgangslage, Ventilüberschneidung
+  klein)
+\item
+  SG bestromt Magnetventil, Motoröl fließt in Kettenspanner.
+\item
+  \textbf{Kettenspanner} spannt \textbf{Kette nach unten}
+  (Hydraulikzylinder)
+\item
+  \textbf{NW} dreht sich \textbf{im UZS} in \textbf{Verstellposition}
+  >>früh<<, (Ventilüberschneidung groß)
+\end{itemize}
+
+\subsection{Vanos - Variable Nockenwellensteuerung
+(BMW)}\label{vanos-variable-nockenwellensteuerung-bmw}
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  \textbf{Nockenwellenrad und Nockenwelle} sind über ein \textbf{steiles
+  Gewinde} miteinander verbunden.
+\item
+  \emph{Grundposition} NW steht in \textbf{Verstellposition} >>spät<<
+\item
+  SG bestromt ein Magnetventil (4/2-Wegeventil) $\to$ gibt den
+  \textbf{Ölzufluss} zum Frühkanal frei
+\item
+  NW verdreht sich gegen Uhrzeigersinn in \textbf{Verstellposition}
+  >>früh<<
+\item
+  Durch wechselseitigen Druckaufbau lässt sich die Position der
+  Verstelleinheit halten.
+\end{itemize}
+
+\subsection{Flügelzellenversteller
+(Mercedes)}\label{fluegelzellenversteller-mercedes}
+
+$\to$ Verändern der Steuerzeiten
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  \textbf{Innenrotor} (fest mit NW) \textbf{und Außenrotor} (fest mit
+  Kettenrad)
+\item
+  SG bestromt \textbf{Magnetventil} $\to$ die \textbf{Ölräume}
+  zwischen den Rotorblättern können wechselseitig mit Öl befüllt werden
+\item
+  Die Kraftübertragung vom Nockenwellenrad auf die NW erfolgt immer über
+  das Öl.
+\item
+  wird Ölraum rechts vom Innenrotorblatt mit Öl befüllt, kommt es zu
+  einer \textbf{Verdrehung der NW gegen UZS} (Uhrzeigersinn) in Richtung
+  >>spät<<
+\item
+  wird Ölraum links vom Innenrotorblatt mit Öl befüllt, kommt es zu
+  einer \textbf{Verdrehung der NW im UZS} in Richtung >>früh<<
+\item
+  Durch wechselseitigen Druckaufbau lässt sich die Position der
+  Verstelleinheit halten.
+\end{itemize}
+
+\section{Variabler Ventiltrieb}\label{variabler-ventiltrieb}
+
+\subsection{Stufenweise variabler
+Ventiltrieb}\label{stufenweise-variabler-ventiltrieb}
+
+\textbf{Vorteile}
+
+Bessere Zylinderfüllung durch zwei unterschiedliche Nockenprofile
+
+\begin{itemize}
+\item
+  \emph{obere Drehzahlbereich} $\to$ steiler Nocken
+
+  \begin{itemize}
+  \item
+    schnelles Öffnen, lange Öffnungsdauer, schnelles Schließen
+  \end{itemize}
+\item
+  \emph{untere Drehzahlbereich} $\to$ spitzer Nocken
+
+  \begin{itemize}
+  \item
+    Verhinderung von ungewollter Abgasrückführung durch zu lange
+    Ventilüberschneidung
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{VTEC - Variable Valve Timing and Lift Electronic Control
+(Honda)}\label{vtec-variable-valve-timing-and-lift-electronic-control-honda}
+
+$\to$ Verändern von Ventilhub und Ventilöffnungszeit
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  Verstelleinheit liegt in den Schlepphebeln
+\item
+  \textbf{Umschaltung} zwischen dem Nockenprofilen erfolgt durch
+  \textbf{Verblocken der Schlepphebel}
+\item
+  \textbf{Schlepphebel entriegelt}
+
+  \begin{itemize}
+  \item
+    Die beiden äußeren Nocken öffnen mithilfe der äußeren Schlepphebel
+    die Ventile.
+  \item
+    \textbf{Spitzer Nocken}
+
+    \begin{itemize}
+    \item
+      kleiner Ventilhub
+    \item
+      kurze Ventilöffnungszeit
+    \item
+      \emph{niedrige Drehzahlen}
+    \end{itemize}
+  \end{itemize}
+\item
+  SG bestromt Elektromagnet, \textbf{Öldruck} verschiebt die
+  \textbf{Sperrschieber} und verblockt die Schlepphebel untereinander.
+\item
+  \textbf{Schlepphebel verriegelt}
+
+  \begin{itemize}
+  \item
+    wenn der steile Nocken auf den mittleren Schlepphebel aufläuft,
+    nimmt dieser die beiden äußeren Schlepphebel mit und diese öffnen
+    die Ventile.
+  \item
+    \textbf{Steiler Nocken}
+
+    \begin{itemize}
+    \item
+      großer Ventilhub
+    \item
+      lange Ventilöffnungszeit
+    \item
+      \emph{hohe Drehzahlen}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{VarioCam Plus (Porsche)}\label{variocam-plus-porsche}
+
+$\to$ Verändern von Ventilhub und Ventilöffnungswinkel
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  Verstelleinheit liegt im Tassenstößel
+\item
+  SG bestromt \textbf{Elektromagnet}, damit wird der
+  \textbf{Tassenstößel mit Öldruck} gesteuert
+\item
+  Diese bestehen aus \textbf{zwei Stößeln}, die mithilfe eines
+  \textbf{Bolzens} gegeneinander verriegelt werden können.
+\item
+  innere Stößel $\to$ kleinen Nocken
+\item
+  äußere Stößel $\to$ großen Nocken
+\item
+  \textbf{Stößel verriegelt} $\to$ große Ventilhub
+
+  \begin{itemize}
+  \item
+    Innere und äußere Stößel wird durch einen Bolzen verriegelt
+  \end{itemize}
+\item
+  \textbf{Stößel entriegelt} $\to$ kleiner Ventilhub
+
+  \begin{itemize}
+  \item
+    sinkt der Öldruck, wird durch die Federkraft der Bolzen
+    zurückgeschoben
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Valvelift (Audi, +
+Zylinderabschaltung)}\label{valvelift-audi-zylinderabschaltung}
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  Änderung des Nockenprofils durch Verschieben der Verstelleinheit
+  (Nockenstück) auf der NW
+\item
+  SG bestromt \textbf{Elektromagnet} $\to$ \textbf{Metallstift} fährt
+  aus \textbf{in eine Spiralnut} und verschiebt das \textbf{Nockenstück}
+\item
+  damit schalte ich zwischen \textbf{zwei Nockenprofilen} um
+\item
+  Arretierung des Nockenstücks erfolgt durch eine federbelastete Kugel.
+\item
+  \textbf{Zylinderabschaltung} (Teillast)
+
+  \begin{itemize}
+  \item
+    Nockenprofil $\to$ Nockengrundkreis
+  \item
+    Die Ventile bleiben bei abgeschaltetem Zylinder geschlossen.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Stufenlos variabler
+Ventiltrieb}\label{stufenlos-variabler-ventiltrieb}
+
+\textbf{Vorteile}
+
+$\to$ Verändern von Ventilhub in allen Drehzahlbereichen
+
+\textbf{Ziel im unteren Drehzahlbereich}: Ein zündbares Gemisch zu
+realisieren.
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  Durch geringe Ventilöffnung und damit Erhöhung der
+  Strömungsgeschwindigkeit der Frischgase
+
+  \begin{itemize}
+  \item
+    >>Venturi-Prinzip<< eine Verengung in einem Strömungskanal
+
+    \begin{itemize}
+    \item
+      $\to$ höhere Strömungsgeschwindigkeit
+    \item
+      $\to$ bessere Verwirbelung
+    \item
+      $\to$ bessere Verteilung des Kraftstoff-Luftgemisches
+    \end{itemize}
+  \end{itemize}
+\item
+  Drosselklappe könnte wegfallen, wird aber weiterhin verbaut
+\item
+  \textbf{Wozu ist die Drosselklappe dann noch notwendig?}
+
+  \begin{itemize}
+  \item
+    Schaltung des AGR (Abgasrückführung)
+
+    \begin{itemize}
+    \item
+      Aufbau eines Druckgefälles/Druckdifferenz, durch Schließen der
+      Drosselklappe wird ein Unterdruck erzeugt, was dazu führt, dass
+      die Abgase in den Ansaugtrakt einströmen können
+    \end{itemize}
+  \end{itemize}
+\item
+  Notlauf
+\end{itemize}
+
+\subsubsection{Valvetronic}\label{valvetronic}
+
+$\to$ Verändern von Ventilöffnungswinkel (Hub) und Ventilöffnungsdauer
+(Nockenwellenverstellung)
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  SG verdreht mithilfe eines \textbf{Stellmotors} eine
+  \textbf{Exzenterwelle} (Halbmondförmig)
+\item
+  Druck des Nockens wird zunächst auf einen \textbf{Zwischenhebel}
+  übertragen
+\item
+  Der \textbf{Leerweg}, den der Zwischenhebel von der Betätigung durch
+  den Nocken bis zur Übertragung auf das Ventil durchläuft, ist mittels
+  einer Exzenterwelle einstellbar.
+\item
+  Je größer der Leerweg, desto kleiner der Ventilhub.
+\item
+  \textbf{Ventilhub} 0,3 mm und 9,85 mm
+\end{itemize}
+
+\subsubsection{Elektrohydraulischer Ventiltrieb
+(MultiAir)}\label{elektrohydraulischer-ventiltrieb-multiair}
+
+\textbf{Vorteil} Vollvariable Steuerzeiten
+
+$\to$ stufenlose Veränderung von Ventilhub, Ventilöffnungsdauer und
+die Anzahl der Ventilhübe der EV
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  auf der \textbf{Auslassnockenwelle} gibt es einen
+  \textbf{Extranocken}, über Schlepphebel wird ein
+  \textbf{Pumpenelement} betätigt
+
+  \begin{itemize}
+  \item
+    $\to$ der erzeugt einen \textbf{Öldruck}, um die
+    \textbf{Einlassseite} zu steuern,
+  \end{itemize}
+\item
+  \textbf{Magnetventil geschlossen} Druck wird auf den Kolben
+  übertragen, Ventil öffnen
+\item
+  \textbf{Magnetventil offen} Ventil schließen. Der Öldruck fließt in
+  den Druckspeicher ab.
+\item
+  \emph{Vorteil \textbf{Druckspeicher}:} von der Nockenwelle
+  unabhängiger Zeitpunkt, mit Öffnung eines Magnetventils (SG) ein
+  Öldruck aus dem Druckspeicher nutzen, der das \textbf{Ventil
+  öffnet/schließt}
+\item
+  \textbf{elektrohydraulisch-pneumatisch} (Ventile unabhängig von NW
+  betätigen, noch nicht in der Großserie)
+\item
+  chinesische Hersteller Qoros und der schwedische
+  Luxussportwagenhersteller Königsegg
+\end{itemize}
+
+\subsubsection{Elektromagnetischer Ventiltrieb (noch nicht zur
+Serienreife
+geschafft)}\label{elektromagnetischer-ventiltrieb-noch-nicht-zur-serienreife-geschafft}
+
+\textbf{Vorteile}
+
+\begin{itemize}
+\item
+  Vollvariable Steuerzeiten
+\item
+  Anzahl der geöffneten Ventile pro Zylinder frei wählbar
+\item
+  Zylinderabschaltung (ohne Gaswechselverluste möglich)
+\item
+  Wegfall von Nockenwellen (Gewichtseinsparung)
+\end{itemize}
+
+\textbf{Wie?}
+
+\begin{itemize}
+\item
+  Unterstützung des Elektromagneten beim schnellen Öffnen und Schließen
+  des Ventils.
+\item
+  Abbremsen des Ventils kurz vor den Endstellungen geöffnet und
+  geschlossen
+\item
+  Ventile beim abgeschalteten oder defekten Systems in halbgeöffnete
+  Stellung bringen, um Motorschäden durch Aufsetzen der Ventile zu
+  verhindern.
+\end{itemize}
