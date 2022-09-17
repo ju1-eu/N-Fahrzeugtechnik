@@ -1,170 +1,194 @@
 % ---------------------------------
 % Inhalt vom Projektverzeichnis.
 % 'archiv/Projekt-Inhalt.txt'
-% ju 13-Aug-2022 Projekt-Inhalt.txt
+% ju 17-Sep-2022 Projekt-Inhalt.txt
 % ---------------------------------
 % 
 /Users/jan/daten/kfz-meister/T2-Fachtheorie/Fahrzeugtechnik/Folien-Mitschrift/N-Fahrzeugtechnik
--rw-r--r--  1 jan  staff   2,5M 17 Jul 16:55 N-Fahrzeugtechnik-print.pdf
--rw-r--r--  1 jan  staff    13K 17 Jul 16:54 N-Fahrzeugtechnik-print.bbl
+-rw-r--r--  1 jan  staff    16K 16 Sep 22:09 N-Fahrzeugtechnik-print.bbl
+-rw-r--r--@ 1 jan  staff   2,8K 16 Sep 22:04 index.html
+-rw-r--r--@ 1 jan  staff   5,9K 13 Aug 16:04 README.md
+-rwxr-xr-x@ 1 jan  staff   6,7K 13 Aug 16:04 projekt.sh
+-rw-r--r--@ 1 jan  staff   1,0K 13 Aug 15:47 N-Fahrzeugtechnik-print.tex
 -rw-r--r--  1 jan  staff   337B 17 Jul 16:53 git-log.txt
--rw-r--r--@ 1 jan  staff   2,3K 17 Jul 16:53 index.html
--rw-r--r--@ 1 jan  staff   978B 29 Mai 15:08 N-Fahrzeugtechnik-print.tex
--rw-r--r--@ 1 jan  staff   5,9K 28 Mai 22:03 README.md
--rwxr-xr-x@ 1 jan  staff   6,7K 28 Mai 22:03 projekt.sh
 -rw-rw-r--@ 1 jan  staff   1,3K 28 Mai 11:58 Makefile
 
 texPandoc:
 total 0
-drwxr-xr-x   2 jan  staff    64B 13 Aug 15:35 .
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+drwxr-xr-x   2 jan  staff    64B 17 Sep 18:09 .
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 
 html:
-total 1376
-drwxr-xr-x  41 jan  staff   1,3K 13 Aug 15:35 .
--rw-r--r--   1 jan  staff   3,4K 13 Aug 15:35 alle-pics.html
--rw-r--r--   1 jan  staff   3,4K 13 Aug 15:35 alle-pics.html-e
--rw-r--r--   1 jan  staff   5,9K 13 Aug 15:35 alle-PDFs.html
--rw-r--r--   1 jan  staff   5,9K 13 Aug 15:35 alle-PDFs.html-e
--rw-r--r--   1 jan  staff   102K 13 Aug 15:35 Pruefungstrainer-Kfz-Technik.html
--rw-r--r--   1 jan  staff   102K 13 Aug 15:35 Pruefungstrainer-Kfz-Technik.html-e
--rw-r--r--   1 jan  staff   3,5K 13 Aug 15:35 Motoroel.html
--rw-r--r--   1 jan  staff   3,5K 13 Aug 15:35 Motoroel.html-e
--rw-r--r--   1 jan  staff   3,5K 13 Aug 15:35 Kfz-Links.html
--rw-r--r--   1 jan  staff   3,5K 13 Aug 15:35 Kfz-Links.html-e
--rw-r--r--   1 jan  staff    12K 13 Aug 15:35 Gemischbildung-Ottomotor.html
--rw-r--r--   1 jan  staff    12K 13 Aug 15:35 Gemischbildung-Ottomotor.html-e
--rw-r--r--   1 jan  staff    12K 13 Aug 15:35 06-Klimaanlage.html
--rw-r--r--   1 jan  staff    12K 13 Aug 15:35 06-Klimaanlage.html-e
--rw-r--r--   1 jan  staff   5,7K 13 Aug 15:35 05-Loesung-Betriebs-u-Hilfsstoffe.html
--rw-r--r--   1 jan  staff   5,7K 13 Aug 15:35 05-Loesung-Betriebs-u-Hilfsstoffe.html-e
--rw-r--r--   1 jan  staff    42K 13 Aug 15:35 05-Betriebs-u-Hilfsstoffe.html
--rw-r--r--   1 jan  staff    42K 13 Aug 15:35 05-Betriebs-u-Hilfsstoffe.html-e
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 04-Loesung-Fuellungsoptimierung-II.html
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 04-Loesung-Fuellungsoptimierung-II.html-e
--rw-r--r--   1 jan  staff    15K 13 Aug 15:35 04-Fuellungsoptimierung-II.html
--rw-r--r--   1 jan  staff    15K 13 Aug 15:35 04-Fuellungsoptimierung-II.html-e
--rw-r--r--   1 jan  staff   5,3K 13 Aug 15:35 03-Loesung-Fuellungsoptimierung-I.html
--rw-r--r--   1 jan  staff   5,3K 13 Aug 15:35 03-Loesung-Fuellungsoptimierung-I.html-e
--rw-r--r--   1 jan  staff    22K 13 Aug 15:35 03-Fuellungsoptimierung-I.html
--rw-r--r--   1 jan  staff    22K 13 Aug 15:35 03-Fuellungsoptimierung-I.html-e
--rw-r--r--   1 jan  staff    26K 13 Aug 15:35 02-Motorsteuerung.html
--rw-r--r--   1 jan  staff    26K 13 Aug 15:35 02-Motorsteuerung.html-e
--rw-r--r--   1 jan  staff   6,5K 13 Aug 15:35 02-Mathe-Motor-Audi-S6.html
--rw-r--r--   1 jan  staff   6,5K 13 Aug 15:35 02-Mathe-Motor-Audi-S6.html-e
--rw-r--r--   1 jan  staff   7,6K 13 Aug 15:35 02-Loesung-Motorsteuerung.html
--rw-r--r--   1 jan  staff   7,6K 13 Aug 15:35 02-Loesung-Motorsteuerung.html-e
--rw-r--r--   1 jan  staff   3,2K 13 Aug 15:35 01-Mathe-Druckberechnung-am-Pleuellager.html
--rw-r--r--   1 jan  staff   3,2K 13 Aug 15:35 01-Mathe-Druckberechnung-am-Pleuellager.html-e
--rw-r--r--   1 jan  staff   8,5K 13 Aug 15:35 01-Loesung-Grundlagen-Verbrennungsmotor.html
--rw-r--r--   1 jan  staff   8,5K 13 Aug 15:35 01-Loesung-Grundlagen-Verbrennungsmotor.html-e
--rw-r--r--   1 jan  staff    14K 13 Aug 15:35 01-Grundlagen-Verbrennungsmotor.html
--rw-r--r--   1 jan  staff    14K 13 Aug 15:35 01-Grundlagen-Verbrennungsmotor.html-e
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+total 1616
+drwxr-xr-x  51 jan  staff   1,6K 17 Sep 18:09 .
+-rw-r--r--   1 jan  staff   3,4K 17 Sep 18:09 alle-pics.html
+-rw-r--r--   1 jan  staff   3,4K 17 Sep 18:09 alle-pics.html-e
+-rw-r--r--   1 jan  staff   5,9K 17 Sep 18:09 alle-PDFs.html
+-rw-r--r--   1 jan  staff   5,9K 17 Sep 18:09 alle-PDFs.html-e
+-rw-r--r--   1 jan  staff   102K 17 Sep 18:09 Pruefungstrainer-Kfz-Technik.html
+-rw-r--r--   1 jan  staff   102K 17 Sep 18:09 Pruefungstrainer-Kfz-Technik.html-e
+-rw-r--r--   1 jan  staff   3,5K 17 Sep 18:09 Motoroel.html
+-rw-r--r--   1 jan  staff   3,5K 17 Sep 18:09 Motoroel.html-e
+-rw-r--r--   1 jan  staff   3,5K 17 Sep 18:09 Kfz-Links.html
+-rw-r--r--   1 jan  staff   3,5K 17 Sep 18:09 Kfz-Links.html-e
+-rw-r--r--   1 jan  staff    12K 17 Sep 18:09 Gemischbildung-Ottomotor.html
+-rw-r--r--   1 jan  staff    12K 17 Sep 18:09 Gemischbildung-Ottomotor.html-e
+-rw-r--r--   1 jan  staff   9,5K 17 Sep 18:09 09-Common-Rail-Einspritzung.html
+-rw-r--r--   1 jan  staff   9,5K 17 Sep 18:09 09-Common-Rail-Einspritzung.html-e
+-rw-r--r--   1 jan  staff   6,2K 17 Sep 18:09 08-Hybrid.html
+-rw-r--r--   1 jan  staff   6,2K 17 Sep 18:09 08-Hybrid.html-e
+-rw-r--r--   1 jan  staff   5,5K 17 Sep 18:09 07-Loesung-Gemischbildung-Diesel.html
+-rw-r--r--   1 jan  staff   5,5K 17 Sep 18:09 07-Loesung-Gemischbildung-Diesel.html-e
+-rw-r--r--   1 jan  staff    16K 17 Sep 18:09 07-Gemischbildung-Diesel.html
+-rw-r--r--   1 jan  staff    16K 17 Sep 18:09 07-Gemischbildung-Diesel.html-e
+-rw-r--r--   1 jan  staff    16K 17 Sep 18:09 06-Klimaanlage.html
+-rw-r--r--   1 jan  staff    16K 17 Sep 18:09 06-Klimaanlage.html-e
+-rw-r--r--   1 jan  staff   5,7K 17 Sep 18:09 05-Loesung-Betriebs-u-Hilfsstoffe.html
+-rw-r--r--   1 jan  staff   5,7K 17 Sep 18:09 05-Loesung-Betriebs-u-Hilfsstoffe.html-e
+-rw-r--r--   1 jan  staff    42K 17 Sep 18:09 05-Betriebs-u-Hilfsstoffe.html
+-rw-r--r--   1 jan  staff    42K 17 Sep 18:09 05-Betriebs-u-Hilfsstoffe.html-e
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 04-Loesung-Fuellungsoptimierung-II.html
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 04-Loesung-Fuellungsoptimierung-II.html-e
+-rw-r--r--   1 jan  staff    15K 17 Sep 18:09 04-Fuellungsoptimierung-II.html
+-rw-r--r--   1 jan  staff    15K 17 Sep 18:09 04-Fuellungsoptimierung-II.html-e
+-rw-r--r--   1 jan  staff   5,3K 17 Sep 18:09 03-Loesung-Fuellungsoptimierung-I.html
+-rw-r--r--   1 jan  staff   5,3K 17 Sep 18:09 03-Loesung-Fuellungsoptimierung-I.html-e
+-rw-r--r--   1 jan  staff    22K 17 Sep 18:09 03-Fuellungsoptimierung-I.html
+-rw-r--r--   1 jan  staff    22K 17 Sep 18:09 03-Fuellungsoptimierung-I.html-e
+-rw-r--r--   1 jan  staff    26K 17 Sep 18:09 02-Motorsteuerung.html
+-rw-r--r--   1 jan  staff    26K 17 Sep 18:09 02-Motorsteuerung.html-e
+-rw-r--r--   1 jan  staff   6,2K 17 Sep 18:09 02-Mathe-Motor-Audi-S6.html
+-rw-r--r--   1 jan  staff   6,2K 17 Sep 18:09 02-Mathe-Motor-Audi-S6.html-e
+-rw-r--r--   1 jan  staff   7,6K 17 Sep 18:09 02-Loesung-Motorsteuerung.html
+-rw-r--r--   1 jan  staff   7,6K 17 Sep 18:09 02-Loesung-Motorsteuerung.html-e
+-rw-r--r--   1 jan  staff   3,1K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager.html
+-rw-r--r--   1 jan  staff   3,1K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager.html-e
+-rw-r--r--   1 jan  staff   2,0K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.html
+-rw-r--r--   1 jan  staff   2,0K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.html-e
+-rw-r--r--   1 jan  staff   8,5K 17 Sep 18:09 01-Loesung-Grundlagen-Verbrennungsmotor.html
+-rw-r--r--   1 jan  staff   8,5K 17 Sep 18:09 01-Loesung-Grundlagen-Verbrennungsmotor.html-e
+-rw-r--r--   1 jan  staff    14K 17 Sep 18:09 01-Grundlagen-Verbrennungsmotor.html
+-rw-r--r--   1 jan  staff    14K 17 Sep 18:09 01-Grundlagen-Verbrennungsmotor.html-e
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 -rw-r--r--@  1 jan  staff   6,0K 28 Jun 18:19 .DS_Store
 
 cms-server:
-total 1200
-drwxr-xr-x  37 jan  staff   1,2K 13 Aug 15:35 .
--rw-r--r--   1 jan  staff    92K 13 Aug 15:35 Pruefungstrainer-Kfz-Technik.html
--rw-r--r--   1 jan  staff    92K 13 Aug 15:35 Pruefungstrainer-Kfz-Technik.html-e
--rw-r--r--   1 jan  staff   2,4K 13 Aug 15:35 Motoroel.html
--rw-r--r--   1 jan  staff   2,4K 13 Aug 15:35 Motoroel.html-e
--rw-r--r--   1 jan  staff   2,6K 13 Aug 15:35 Kfz-Links.html
--rw-r--r--   1 jan  staff   2,6K 13 Aug 15:35 Kfz-Links.html-e
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 Gemischbildung-Ottomotor.html
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 Gemischbildung-Ottomotor.html-e
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 06-Klimaanlage.html
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 06-Klimaanlage.html-e
--rw-r--r--   1 jan  staff   4,5K 13 Aug 15:35 05-Loesung-Betriebs-u-Hilfsstoffe.html
--rw-r--r--   1 jan  staff   4,5K 13 Aug 15:35 05-Loesung-Betriebs-u-Hilfsstoffe.html-e
--rw-r--r--   1 jan  staff    38K 13 Aug 15:35 05-Betriebs-u-Hilfsstoffe.html
--rw-r--r--   1 jan  staff    38K 13 Aug 15:35 05-Betriebs-u-Hilfsstoffe.html-e
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 04-Loesung-Fuellungsoptimierung-II.html
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 04-Loesung-Fuellungsoptimierung-II.html-e
--rw-r--r--   1 jan  staff    13K 13 Aug 15:35 04-Fuellungsoptimierung-II.html
--rw-r--r--   1 jan  staff    13K 13 Aug 15:35 04-Fuellungsoptimierung-II.html-e
--rw-r--r--   1 jan  staff   4,1K 13 Aug 15:35 03-Loesung-Fuellungsoptimierung-I.html
--rw-r--r--   1 jan  staff   4,1K 13 Aug 15:35 03-Loesung-Fuellungsoptimierung-I.html-e
--rw-r--r--   1 jan  staff    19K 13 Aug 15:35 03-Fuellungsoptimierung-I.html
--rw-r--r--   1 jan  staff    19K 13 Aug 15:35 03-Fuellungsoptimierung-I.html-e
--rw-r--r--   1 jan  staff    21K 13 Aug 15:35 02-Motorsteuerung.html
--rw-r--r--   1 jan  staff    21K 13 Aug 15:35 02-Motorsteuerung.html-e
--rw-r--r--   1 jan  staff   4,8K 13 Aug 15:35 02-Mathe-Motor-Audi-S6.html
--rw-r--r--   1 jan  staff   4,8K 13 Aug 15:35 02-Mathe-Motor-Audi-S6.html-e
--rw-r--r--   1 jan  staff   6,5K 13 Aug 15:35 02-Loesung-Motorsteuerung.html
--rw-r--r--   1 jan  staff   6,5K 13 Aug 15:35 02-Loesung-Motorsteuerung.html-e
--rw-r--r--   1 jan  staff   2,0K 13 Aug 15:35 01-Mathe-Druckberechnung-am-Pleuellager.html
--rw-r--r--   1 jan  staff   2,0K 13 Aug 15:35 01-Mathe-Druckberechnung-am-Pleuellager.html-e
--rw-r--r--   1 jan  staff   6,9K 13 Aug 15:35 01-Loesung-Grundlagen-Verbrennungsmotor.html
--rw-r--r--   1 jan  staff   6,9K 13 Aug 15:35 01-Loesung-Grundlagen-Verbrennungsmotor.html-e
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 01-Grundlagen-Verbrennungsmotor.html
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 01-Grundlagen-Verbrennungsmotor.html-e
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+total 1408
+drwxr-xr-x  47 jan  staff   1,5K 17 Sep 18:09 .
+-rw-r--r--   1 jan  staff    92K 17 Sep 18:09 Pruefungstrainer-Kfz-Technik.html
+-rw-r--r--   1 jan  staff    92K 17 Sep 18:09 Pruefungstrainer-Kfz-Technik.html-e
+-rw-r--r--   1 jan  staff   2,4K 17 Sep 18:09 Motoroel.html
+-rw-r--r--   1 jan  staff   2,4K 17 Sep 18:09 Motoroel.html-e
+-rw-r--r--   1 jan  staff   2,6K 17 Sep 18:09 Kfz-Links.html
+-rw-r--r--   1 jan  staff   2,6K 17 Sep 18:09 Kfz-Links.html-e
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 Gemischbildung-Ottomotor.html
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 Gemischbildung-Ottomotor.html-e
+-rw-r--r--   1 jan  staff   8,5K 17 Sep 18:09 09-Common-Rail-Einspritzung.html
+-rw-r--r--   1 jan  staff   8,5K 17 Sep 18:09 09-Common-Rail-Einspritzung.html-e
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 08-Hybrid.html
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 08-Hybrid.html-e
+-rw-r--r--   1 jan  staff   4,4K 17 Sep 18:09 07-Loesung-Gemischbildung-Diesel.html
+-rw-r--r--   1 jan  staff   4,4K 17 Sep 18:09 07-Loesung-Gemischbildung-Diesel.html-e
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 07-Gemischbildung-Diesel.html
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 07-Gemischbildung-Diesel.html-e
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 06-Klimaanlage.html
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 06-Klimaanlage.html-e
+-rw-r--r--   1 jan  staff   4,5K 17 Sep 18:09 05-Loesung-Betriebs-u-Hilfsstoffe.html
+-rw-r--r--   1 jan  staff   4,5K 17 Sep 18:09 05-Loesung-Betriebs-u-Hilfsstoffe.html-e
+-rw-r--r--   1 jan  staff    38K 17 Sep 18:09 05-Betriebs-u-Hilfsstoffe.html
+-rw-r--r--   1 jan  staff    38K 17 Sep 18:09 05-Betriebs-u-Hilfsstoffe.html-e
+-rw-r--r--   1 jan  staff    10K 17 Sep 18:09 04-Loesung-Fuellungsoptimierung-II.html
+-rw-r--r--   1 jan  staff    10K 17 Sep 18:09 04-Loesung-Fuellungsoptimierung-II.html-e
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 04-Fuellungsoptimierung-II.html
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 04-Fuellungsoptimierung-II.html-e
+-rw-r--r--   1 jan  staff   4,1K 17 Sep 18:09 03-Loesung-Fuellungsoptimierung-I.html
+-rw-r--r--   1 jan  staff   4,1K 17 Sep 18:09 03-Loesung-Fuellungsoptimierung-I.html-e
+-rw-r--r--   1 jan  staff    19K 17 Sep 18:09 03-Fuellungsoptimierung-I.html
+-rw-r--r--   1 jan  staff    19K 17 Sep 18:09 03-Fuellungsoptimierung-I.html-e
+-rw-r--r--   1 jan  staff    21K 17 Sep 18:09 02-Motorsteuerung.html
+-rw-r--r--   1 jan  staff    21K 17 Sep 18:09 02-Motorsteuerung.html-e
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 02-Mathe-Motor-Audi-S6.html
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 02-Mathe-Motor-Audi-S6.html-e
+-rw-r--r--   1 jan  staff   6,5K 17 Sep 18:09 02-Loesung-Motorsteuerung.html
+-rw-r--r--   1 jan  staff   6,5K 17 Sep 18:09 02-Loesung-Motorsteuerung.html-e
+-rw-r--r--   1 jan  staff   2,0K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager.html
+-rw-r--r--   1 jan  staff   2,0K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager.html-e
+-rw-r--r--   1 jan  staff   877B 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.html
+-rw-r--r--   1 jan  staff   877B 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.html-e
+-rw-r--r--   1 jan  staff   6,9K 17 Sep 18:09 01-Loesung-Grundlagen-Verbrennungsmotor.html
+-rw-r--r--   1 jan  staff   6,9K 17 Sep 18:09 01-Loesung-Grundlagen-Verbrennungsmotor.html-e
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 01-Grundlagen-Verbrennungsmotor.html
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 01-Grundlagen-Verbrennungsmotor.html-e
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 -rw-r--r--@  1 jan  staff   6,0K 28 Jun 18:19 .DS_Store
 
 cms-lokal:
-total 1200
-drwxr-xr-x  37 jan  staff   1,2K 13 Aug 15:35 .
--rw-r--r--   1 jan  staff    92K 13 Aug 15:35 Pruefungstrainer-Kfz-Technik.html
--rw-r--r--   1 jan  staff    92K 13 Aug 15:35 Pruefungstrainer-Kfz-Technik.html-e
--rw-r--r--   1 jan  staff   2,4K 13 Aug 15:35 Motoroel.html
--rw-r--r--   1 jan  staff   2,4K 13 Aug 15:35 Motoroel.html-e
--rw-r--r--   1 jan  staff   2,6K 13 Aug 15:35 Kfz-Links.html
--rw-r--r--   1 jan  staff   2,6K 13 Aug 15:35 Kfz-Links.html-e
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 Gemischbildung-Ottomotor.html
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 Gemischbildung-Ottomotor.html-e
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 06-Klimaanlage.html
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 06-Klimaanlage.html-e
--rw-r--r--   1 jan  staff   4,5K 13 Aug 15:35 05-Loesung-Betriebs-u-Hilfsstoffe.html
--rw-r--r--   1 jan  staff   4,5K 13 Aug 15:35 05-Loesung-Betriebs-u-Hilfsstoffe.html-e
--rw-r--r--   1 jan  staff    38K 13 Aug 15:35 05-Betriebs-u-Hilfsstoffe.html
--rw-r--r--   1 jan  staff    38K 13 Aug 15:35 05-Betriebs-u-Hilfsstoffe.html-e
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 04-Loesung-Fuellungsoptimierung-II.html
--rw-r--r--   1 jan  staff    10K 13 Aug 15:35 04-Loesung-Fuellungsoptimierung-II.html-e
--rw-r--r--   1 jan  staff    13K 13 Aug 15:35 04-Fuellungsoptimierung-II.html
--rw-r--r--   1 jan  staff    13K 13 Aug 15:35 04-Fuellungsoptimierung-II.html-e
--rw-r--r--   1 jan  staff   4,1K 13 Aug 15:35 03-Loesung-Fuellungsoptimierung-I.html
--rw-r--r--   1 jan  staff   4,1K 13 Aug 15:35 03-Loesung-Fuellungsoptimierung-I.html-e
--rw-r--r--   1 jan  staff    19K 13 Aug 15:35 03-Fuellungsoptimierung-I.html
--rw-r--r--   1 jan  staff    19K 13 Aug 15:35 03-Fuellungsoptimierung-I.html-e
--rw-r--r--   1 jan  staff    20K 13 Aug 15:35 02-Motorsteuerung.html
--rw-r--r--   1 jan  staff    20K 13 Aug 15:35 02-Motorsteuerung.html-e
--rw-r--r--   1 jan  staff   4,8K 13 Aug 15:35 02-Mathe-Motor-Audi-S6.html
--rw-r--r--   1 jan  staff   4,8K 13 Aug 15:35 02-Mathe-Motor-Audi-S6.html-e
--rw-r--r--   1 jan  staff   6,5K 13 Aug 15:35 02-Loesung-Motorsteuerung.html
--rw-r--r--   1 jan  staff   6,5K 13 Aug 15:35 02-Loesung-Motorsteuerung.html-e
--rw-r--r--   1 jan  staff   2,0K 13 Aug 15:35 01-Mathe-Druckberechnung-am-Pleuellager.html
--rw-r--r--   1 jan  staff   2,0K 13 Aug 15:35 01-Mathe-Druckberechnung-am-Pleuellager.html-e
--rw-r--r--   1 jan  staff   6,9K 13 Aug 15:35 01-Loesung-Grundlagen-Verbrennungsmotor.html
--rw-r--r--   1 jan  staff   6,9K 13 Aug 15:35 01-Loesung-Grundlagen-Verbrennungsmotor.html-e
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 01-Grundlagen-Verbrennungsmotor.html
--rw-r--r--   1 jan  staff    11K 13 Aug 15:35 01-Grundlagen-Verbrennungsmotor.html-e
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+total 1408
+drwxr-xr-x  47 jan  staff   1,5K 17 Sep 18:09 .
+-rw-r--r--   1 jan  staff    92K 17 Sep 18:09 Pruefungstrainer-Kfz-Technik.html
+-rw-r--r--   1 jan  staff    92K 17 Sep 18:09 Pruefungstrainer-Kfz-Technik.html-e
+-rw-r--r--   1 jan  staff   2,4K 17 Sep 18:09 Motoroel.html
+-rw-r--r--   1 jan  staff   2,4K 17 Sep 18:09 Motoroel.html-e
+-rw-r--r--   1 jan  staff   2,6K 17 Sep 18:09 Kfz-Links.html
+-rw-r--r--   1 jan  staff   2,6K 17 Sep 18:09 Kfz-Links.html-e
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 Gemischbildung-Ottomotor.html
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 Gemischbildung-Ottomotor.html-e
+-rw-r--r--   1 jan  staff   8,4K 17 Sep 18:09 09-Common-Rail-Einspritzung.html
+-rw-r--r--   1 jan  staff   8,4K 17 Sep 18:09 09-Common-Rail-Einspritzung.html-e
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 08-Hybrid.html
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 08-Hybrid.html-e
+-rw-r--r--   1 jan  staff   4,4K 17 Sep 18:09 07-Loesung-Gemischbildung-Diesel.html
+-rw-r--r--   1 jan  staff   4,4K 17 Sep 18:09 07-Loesung-Gemischbildung-Diesel.html-e
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 07-Gemischbildung-Diesel.html
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 07-Gemischbildung-Diesel.html-e
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 06-Klimaanlage.html
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 06-Klimaanlage.html-e
+-rw-r--r--   1 jan  staff   4,5K 17 Sep 18:09 05-Loesung-Betriebs-u-Hilfsstoffe.html
+-rw-r--r--   1 jan  staff   4,5K 17 Sep 18:09 05-Loesung-Betriebs-u-Hilfsstoffe.html-e
+-rw-r--r--   1 jan  staff    38K 17 Sep 18:09 05-Betriebs-u-Hilfsstoffe.html
+-rw-r--r--   1 jan  staff    38K 17 Sep 18:09 05-Betriebs-u-Hilfsstoffe.html-e
+-rw-r--r--   1 jan  staff    10K 17 Sep 18:09 04-Loesung-Fuellungsoptimierung-II.html
+-rw-r--r--   1 jan  staff    10K 17 Sep 18:09 04-Loesung-Fuellungsoptimierung-II.html-e
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 04-Fuellungsoptimierung-II.html
+-rw-r--r--   1 jan  staff    13K 17 Sep 18:09 04-Fuellungsoptimierung-II.html-e
+-rw-r--r--   1 jan  staff   4,1K 17 Sep 18:09 03-Loesung-Fuellungsoptimierung-I.html
+-rw-r--r--   1 jan  staff   4,1K 17 Sep 18:09 03-Loesung-Fuellungsoptimierung-I.html-e
+-rw-r--r--   1 jan  staff    19K 17 Sep 18:09 03-Fuellungsoptimierung-I.html
+-rw-r--r--   1 jan  staff    19K 17 Sep 18:09 03-Fuellungsoptimierung-I.html-e
+-rw-r--r--   1 jan  staff    20K 17 Sep 18:09 02-Motorsteuerung.html
+-rw-r--r--   1 jan  staff    20K 17 Sep 18:09 02-Motorsteuerung.html-e
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 02-Mathe-Motor-Audi-S6.html
+-rw-r--r--   1 jan  staff   4,7K 17 Sep 18:09 02-Mathe-Motor-Audi-S6.html-e
+-rw-r--r--   1 jan  staff   6,5K 17 Sep 18:09 02-Loesung-Motorsteuerung.html
+-rw-r--r--   1 jan  staff   6,5K 17 Sep 18:09 02-Loesung-Motorsteuerung.html-e
+-rw-r--r--   1 jan  staff   2,0K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager.html
+-rw-r--r--   1 jan  staff   2,0K 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager.html-e
+-rw-r--r--   1 jan  staff   877B 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.html
+-rw-r--r--   1 jan  staff   877B 17 Sep 18:09 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.html-e
+-rw-r--r--   1 jan  staff   6,9K 17 Sep 18:09 01-Loesung-Grundlagen-Verbrennungsmotor.html
+-rw-r--r--   1 jan  staff   6,9K 17 Sep 18:09 01-Loesung-Grundlagen-Verbrennungsmotor.html-e
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 01-Grundlagen-Verbrennungsmotor.html
+-rw-r--r--   1 jan  staff    11K 17 Sep 18:09 01-Grundlagen-Verbrennungsmotor.html-e
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 -rw-r--r--@  1 jan  staff   6,0K 28 Jun 18:19 .DS_Store
 
-archiv:
-total 888
--rw-r--r--   1 jan  staff   8,3K 13 Aug 15:35 Projekt-Inhalt.txt
--rw-r--r--   1 jan  staff   3,1K 13 Aug 15:35 inhalt.tex
--rw-r--r--@  1 jan  staff   2,3K 13 Aug 15:35 input-img.txt
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
-drwxr-xr-x  10 jan  staff   320B 17 Jul 16:54 .
--rw-r--r--   1 jan  staff    89K 17 Jul 16:54 md.zip
--rw-r--r--   1 jan  staff   315K 17 Jul 16:54 content.zip
--rw-r--r--   1 jan  staff   3,1K 17 Jul 16:53 Pics-files.tex
--rw-r--r--   1 jan  staff   531B 17 Jul 16:53 Quellcode-files.tex
--rw-r--r--@  1 jan  staff   6,0K 28 Jun 11:33 .DS_Store
-
 md:
-total 592
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
-drwxr-xr-x@ 27 jan  staff   864B  2 Jul 15:10 .
+total 672
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+drwxr-xr-x@ 32 jan  staff   1,0K 17 Sep 18:08 .
+-rw-r--r--@  1 jan  staff   7,2K 17 Sep 04:56 09-Common-Rail-Einspritzung.md
+-rw-r--r--@  1 jan  staff    10K 16 Sep 21:53 07-Gemischbildung-Diesel.md
+-rw-r--r--@  1 jan  staff    28K 11 Sep 14:24 05-Betriebs-u-Hilfsstoffe.md
+-rw-r--r--@  1 jan  staff   4,3K 10 Sep 10:29 07-Loesung-Gemischbildung-Diesel.md
+-rw-r--r--@  1 jan  staff   2,7K  4 Sep 14:34 02-Mathe-Motor-Audi-S6.md
+-rw-r--r--@  1 jan  staff   2,0K  4 Sep 14:21 01-Mathe-Druckberechnung-am-Pleuellager.md
+-rw-r--r--@  1 jan  staff   1,0K  4 Sep 14:20 01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.md
+-rw-r--r--@  1 jan  staff   9,9K  2 Sep 19:03 literatur-kfz.bib
+-rw-r--r--@  1 jan  staff   3,0K  2 Sep 18:50 08-Hybrid.md
+-rw-r--r--@  1 jan  staff   9,2K 20 Aug 13:59 06-Klimaanlage.md
 -rw-r--r--@  1 jan  staff   7,7K  2 Jul 13:43 01-Grundlagen-Verbrennungsmotor.md
--rw-r--r--@  1 jan  staff    28K  2 Jul 10:14 05-Betriebs-u-Hilfsstoffe.md
 -rw-r--r--@  1 jan  staff   5,3K 28 Jun 16:44 01-Loesung-Grundlagen-Verbrennungsmotor.md
 -rw-r--r--@  1 jan  staff   4,3K 28 Jun 14:59 05-Loesung-Betriebs-u-Hilfsstoffe.md
--rw-r--r--@  1 jan  staff   7,1K 28 Jun 11:35 06-Klimaanlage.md
 -rw-r--r--@  1 jan  staff    65K 28 Jun 11:25 Pruefungstrainer-Kfz-Technik.md
 -rw-r--r--@  1 jan  staff    14K 28 Jun 10:30 02-Motorsteuerung.md
 -rw-r--r--@  1 jan  staff   6,0K 27 Jun 13:45 .DS_Store
@@ -173,57 +197,57 @@ drwxr-xr-x@ 27 jan  staff   864B  2 Jul 15:10 .
 -rw-r--r--@  1 jan  staff   3,9K 17 Apr 11:18 03-Loesung-Fuellungsoptimierung-I.md
 -rw-r--r--@  1 jan  staff   5,9K 17 Apr 11:14 02-Loesung-Motorsteuerung.md
 -rw-r--r--@  1 jan  staff    13K 16 Apr 11:44 03-Fuellungsoptimierung-I.md
--rw-r--r--@  1 jan  staff   2,7K 15 Apr 12:03 02-Mathe-Motor-Audi-S6.md
--rw-r--r--@  1 jan  staff   2,0K 15 Apr 12:02 01-Mathe-Druckberechnung-am-Pleuellager.md
--rw-r--r--@  1 jan  staff   8,3K 11 Mär 13:08 Gemischbildung-Ottomotor.md
--rw-r--r--@  1 jan  staff   2,4K 26 Feb 08:39 Motoroel.md
--rw-r--r--@  1 jan  staff   2,0K 26 Feb 08:39 Kfz-Links.md
--rw-r--r--   1 jan  staff   9,2K  7 Feb  2022 literatur-kfz.bib
+-rw-r--r--@  1 jan  staff   8,3K 11 Mär  2022 Gemischbildung-Ottomotor.md
+-rw-r--r--@  1 jan  staff   2,4K 26 Feb  2022 Motoroel.md
+-rw-r--r--@  1 jan  staff   2,0K 26 Feb  2022 Kfz-Links.md
 -rw-r--r--@  1 jan  staff   901B 18 Dez  2021 Makefile
 -rw-r--r--   1 jan  staff   582B  6 Jun  2021 _output.yaml
 -rw-r--r--   1 jan  staff    13K 13 Jan  2021 zitierstil-number.csl
--rw-r--r--   1 jan  staff   9,9K 13 Jan  2021 literatur.bib
+-rw-r--r--@  1 jan  staff   9,9K 13 Jan  2021 literatur.bib
 -rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
 -rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
 
-img-out:
-total 8
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
-drwxr-xr-x   5 jan  staff   160B 28 Jun 11:28 Messmethodik
-drwxr-xr-x   5 jan  staff   160B 28 Jun 11:28 .
-drwxr-xr-x   5 jan  staff   160B 28 Jun 11:28 Klimakreislauf
--rw-r--r--   1 jan  staff    28B 28 Jun 11:28 pics-liste.txt
-
-img-in:
-total 24
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
--rw-r--r--@  1 jan  staff    10K 28 Jun 11:28 .DS_Store
-drwxr-xr-x   5 jan  staff   160B 28 Jun 11:28 .
-drwxr-xr-x   3 jan  staff    96B 28 Jun 11:28 Klimakreislauf
-drwxr-xr-x   4 jan  staff   128B 28 Mai 14:45 Messmethodik
+images:
+total 464
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+-rw-r--r--@  1 jan  staff    10K 16 Sep 22:05 .DS_Store
+drwxr-xr-x  11 jan  staff   352B 16 Sep 22:04 .
+drwxr-xr-x  15 jan  staff   480B 15 Sep 20:03 CR
+drwxr-xr-x@ 20 jan  staff   640B 28 Jun 11:28 Skizze
+drwxr-xr-x  26 jan  staff   832B 28 Mai 20:48 Logo
+drwxr-xr-x   3 jan  staff    96B  5 Feb  2022 Video
+-rw-r--r--@  1 jan  staff   119K 26 Nov  2021 verbrennungsmotor.jpg
+-rw-r--r--@  1 jan  staff    50K 26 Nov  2021 verbrennungsmotor.pdf
+-rw-r--r--@  1 jan  staff    43K 25 Okt  2021 titelbild.pdf
+-rw-r--r--@  1 jan  staff   779B 25 Okt  2021 titelbild.svg
 
 Artikel:
-total 288
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-Pruefungstrainer-Kfz-Technik.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-Motoroel.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-Kfz-Links.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-Gemischbildung-Ottomotor.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-06-Klimaanlage.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-05-Loesung-Betriebs-u-Hilfsstoffe.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-05-Klimaanlage.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-05-Betriebs-u-Hilfsstoffe.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-04-Loesung-Fuellungsoptimierung-II.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-04-Fuellungsoptimierung-II.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-03-Loesung-Fuellungsoptimierung-I.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-03-Fuellungsoptimierung-I.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-02-Motorsteuerung.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-02-Mathe-Motor-Audi-S6.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-02-Loesung-Motorsteuerung.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-01-Mathe-Druckberechnung-am-Pleuellager.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-01-Loesung-Grundlagen-Verbrennungsmotor.tex
--rw-r--r--   1 jan  staff   2,2K 17 Jul 16:53 N-Keywords-01-Grundlagen-Verbrennungsmotor.tex
-drwxr-xr-x  37 jan  staff   1,2K 27 Jun 13:46 .
+total 328
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-Pruefungstrainer-Kfz-Technik.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-Motoroel.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-Kfz-Links.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-Gemischbildung-Ottomotor.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-09-Common-Rail-Einspritzung.tex
+drwxr-xr-x  42 jan  staff   1,3K 16 Sep 22:04 .
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-08-Hybrid.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-07-Loesung-Gemischbildung-Diesel.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-07-Gemischbildung-Diesel.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-06-Klimaanlage.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-05-Loesung-Betriebs-u-Hilfsstoffe.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-05-Klimaanlage.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-05-Betriebs-u-Hilfsstoffe.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-04-Loesung-Fuellungsoptimierung-II.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-04-Fuellungsoptimierung-II.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-03-Loesung-Fuellungsoptimierung-I.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-03-Fuellungsoptimierung-I.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-02-Motorsteuerung.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-02-Mathe-Motor-Audi-S6.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-02-Loesung-Motorsteuerung.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-01-Mathe-Druckberechnung-am-Pleuellager.tex
+-rw-r--r--   1 jan  staff   2,3K 16 Sep 22:04 N-Keywords-01-Mathe-Druckberechnung-am-Pleuellager-Vorlage.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-01-Loesung-Grundlagen-Verbrennungsmotor.tex
+-rw-r--r--   1 jan  staff   2,2K 16 Sep 22:04 N-Keywords-01-Grundlagen-Verbrennungsmotor.tex
 -rw-r--r--   1 jan  staff   2,3K  5 Jun 15:52 M-Keywords-Pruefungstrainer-Kfz-Technik.tex
 -rw-r--r--   1 jan  staff   2,3K  5 Jun 15:52 M-Keywords-Motoroel.tex
 -rw-r--r--   1 jan  staff   2,3K  5 Jun 15:52 M-Keywords-Kfz-Links.tex
@@ -242,15 +266,75 @@ drwxr-xr-x  37 jan  staff   1,2K 27 Jun 13:46 .
 -rw-r--r--   1 jan  staff   2,3K  5 Jun 15:52 M-Keywords-01-Grundlagen-Verbrennungsmotor.tex
 -rw-r--r--@  1 jan  staff   6,0K 28 Mai 22:21 .DS_Store
 
+content:
+total 360
+drwxr-xr-x@ 26 jan  staff   832B 17 Sep 18:09 tex
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+-rw-r--r--   1 jan  staff   4,6K 16 Sep 22:09 abstract.aux
+-rw-r--r--   1 jan  staff   4,5K 16 Sep 22:09 titlepage.aux
+-rw-r--r--@  1 jan  staff   2,0K 16 Sep 22:07 inhalt.tex
+drwxr-xr-x@ 28 jan  staff   896B  2 Sep 18:43 .
+-rw-r--r--   1 jan  staff   9,9K  2 Sep 18:36 literatur-kfz.bib
+-rw-r--r--@  1 jan  staff   1,3K 27 Aug 15:47 titlepage.tex
+-rw-r--r--@  1 jan  staff   372B 13 Aug 15:35 meta.tex
+-rw-r--r--   1 jan  staff   8,0K  7 Jun 15:37 .DS_Store
+-rw-r--r--@  1 jan  staff   2,2K  7 Jun 14:40 x-Keywords-0x-Thema.tex
+-rw-r--r--   1 jan  staff   4,4K 29 Mai 15:43 meta.aux
+-rw-r--r--   1 jan  staff   4,2K 28 Mai 22:24 praeambel-artikel.aux
+-rw-rw-r--@  1 jan  staff    11K 28 Mai 19:50 hpi-praeambel.sty
+-rw-r--r--   1 jan  staff    13K 28 Mai 19:48 titlepage.log
+-rw-r--r--@  1 jan  staff   1,3K 28 Mai 18:08 abstract.tex
+drwxr-xr-x   6 jan  staff   192B 28 Mai 16:00 beispiele
+-rw-r--r--@  1 jan  staff   961B 28 Mai 14:20 main-book.tex
+-rw-r--r--@  1 jan  staff   959B 28 Mai 14:20 main-print.tex
+-rw-r--r--   1 jan  staff   6,4K 28 Mai 13:59 Spickzettel-Markdown.tex
+-rw-r--r--   1 jan  staff   8,4K 28 Mai 13:59 README.tex
+-rw-r--r--@  1 jan  staff   3,7K 14 Mai 22:45 praeambel-artikel.tex
+-rw-r--r--@  1 jan  staff   1,2K 26 Feb  2022 0x-Thema.md
+-rw-r--r--@  1 jan  staff   4,7K 26 Feb  2022 Spickzettel-Markdown.md
+-rw-r--r--   1 jan  staff   4,2K  5 Feb  2022 Spickzettel-Latex.tex
+-rw-r--r--   1 jan  staff   813B 25 Okt  2021 Links.md
+-rw-r--r--@  1 jan  staff   9,9K 13 Jan  2021 literatur.bib
+-rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
+
+archiv:
+total 904
+-rw-r--r--   1 jan  staff    16K 17 Sep 18:09 Projekt-Inhalt.txt
+-rw-r--r--@  1 jan  staff   3,5K 17 Sep 18:09 inhalt.tex
+-rw-r--r--@  1 jan  staff   2,3K 17 Sep 18:09 input-img.txt
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+-rw-r--r--   1 jan  staff   3,1K 16 Sep 22:04 Pics-files.tex
+-rw-r--r--   1 jan  staff   531B 16 Sep 22:04 Quellcode-files.tex
+-rw-r--r--@  1 jan  staff   6,0K 28 Aug 17:27 .DS_Store
+drwxr-xr-x  10 jan  staff   320B 13 Aug 16:06 .
+-rw-r--r--   1 jan  staff    89K 13 Aug 16:06 md.zip
+-rw-r--r--   1 jan  staff   315K 13 Aug 16:06 content.zip
+
+img-out:
+total 8
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+drwxr-xr-x   5 jan  staff   160B  4 Sep 14:38 Messmethodik
+drwxr-xr-x   5 jan  staff   160B  4 Sep 14:38 Klimakreislauf
+-rw-r--r--   1 jan  staff    28B  4 Sep 14:38 pics-liste.txt
+drwxr-xr-x   5 jan  staff   160B 28 Jun 11:28 .
+
+img-in:
+total 24
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+-rw-r--r--@  1 jan  staff    10K 28 Jun 11:28 .DS_Store
+drwxr-xr-x   5 jan  staff   160B 28 Jun 11:28 .
+drwxr-xr-x   3 jan  staff    96B 28 Jun 11:28 Klimakreislauf
+drwxr-xr-x   4 jan  staff   128B 28 Mai 14:45 Messmethodik
+
 scripteBash:
 total 240
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
+-rwxr-xr-x@  1 jan  staff   2,7K 13 Aug 16:05 gitversionieren.sh
+-rwxr-xr-x@  1 jan  staff   4,7K 13 Aug 16:04 www.sh
 drwxr-xr-x  21 jan  staff   672B  7 Jun 15:29 .
 -rwxr-xr-x@  1 jan  staff   3,4K  7 Jun 15:17 artikel-anlegen.sh
--rwxr-xr-x@  1 jan  staff   2,7K 28 Mai 22:05 gitversionieren.sh
--rwxr-xr-x@  1 jan  staff   4,7K 28 Mai 22:03 www.sh
 -rw-r--r--@  1 jan  staff    10K 28 Mai 14:51 .DS_Store
--rwxr-xr-x@  1 jan  staff   6,8K 25 Feb 18:39 sed.sh
+-rwxr-xr-x@  1 jan  staff   6,8K 25 Feb  2022 sed.sh
 -rw-r--r--   1 jan  staff   1,4K  5 Feb  2022 gitconfig.txt
 -rw-r--r--   1 jan  staff   207B  5 Feb  2022 gitattributes.txt
 -rw-------@  1 jan  staff   487B  5 Feb  2022 gitignore.txt
@@ -266,63 +350,19 @@ drwxr-xr-x  21 jan  staff   672B  7 Jun 15:29 .
 -rwxr-xr-x   1 jan  staff   1,1K 16 Jun  2021 markdownLatexHtml.sh
 -rwxr-xr-x   1 jan  staff    48B 13 Jan  2021 hallo.sh
 
-content:
-total 360
-drwxr-xr-x@ 21 jan  staff   672B 13 Aug 15:35 tex
--rw-r--r--@  1 jan  staff   372B 13 Aug 15:35 meta.tex
--rw-r--r--@  1 jan  staff   1,6K 13 Aug 15:33 inhalt.tex
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
--rw-r--r--   1 jan  staff   4,6K 17 Jul 16:55 abstract.aux
--rw-r--r--   1 jan  staff   4,5K 17 Jul 16:55 titlepage.aux
--rw-r--r--   1 jan  staff   8,0K  7 Jun 15:37 .DS_Store
-drwxr-xr-x@ 28 jan  staff   896B  7 Jun 15:27 .
--rw-r--r--@  1 jan  staff   2,2K  7 Jun 14:40 x-Keywords-0x-Thema.tex
--rw-r--r--   1 jan  staff   4,4K 29 Mai 15:43 meta.aux
--rw-r--r--   1 jan  staff   4,2K 28 Mai 22:24 praeambel-artikel.aux
--rw-r--r--@  1 jan  staff   1,3K 28 Mai 22:06 titlepage.tex
--rw-rw-r--@  1 jan  staff    11K 28 Mai 19:50 hpi-praeambel.sty
--rw-r--r--   1 jan  staff    13K 28 Mai 19:48 titlepage.log
--rw-r--r--@  1 jan  staff   1,3K 28 Mai 18:08 abstract.tex
-drwxr-xr-x   6 jan  staff   192B 28 Mai 16:00 beispiele
--rw-r--r--@  1 jan  staff   961B 28 Mai 14:20 main-book.tex
--rw-r--r--@  1 jan  staff   959B 28 Mai 14:20 main-print.tex
--rw-r--r--   1 jan  staff   6,4K 28 Mai 13:59 Spickzettel-Markdown.tex
--rw-r--r--   1 jan  staff   8,4K 28 Mai 13:59 README.tex
--rw-r--r--@  1 jan  staff   3,7K 14 Mai 22:45 praeambel-artikel.tex
--rw-r--r--@  1 jan  staff   1,2K 26 Feb 09:20 0x-Thema.md
--rw-r--r--@  1 jan  staff   4,7K 26 Feb 09:19 Spickzettel-Markdown.md
--rw-r--r--   1 jan  staff   9,2K  7 Feb  2022 literatur-kfz.bib
--rw-r--r--   1 jan  staff   4,2K  5 Feb  2022 Spickzettel-Latex.tex
--rw-r--r--   1 jan  staff   813B 25 Okt  2021 Links.md
--rw-r--r--@  1 jan  staff   9,9K 13 Jan  2021 literatur.bib
--rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
-
 Tabellen:
 total 56
--rw-r--r--   1 jan  staff   9,6K 13 Aug 15:35 input-PDFs.txt
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+-rw-r--r--   1 jan  staff   9,6K 17 Sep 18:09 input-PDFs.txt
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 drwxr-xr-x  64 jan  staff   2,0K  7 Jun 15:26 Muster
 -rw-r--r--   1 jan  staff   8,0K  7 Jun 15:26 .DS_Store
 drwxr-xr-x   7 jan  staff   224B  7 Jun 15:26 .
 drwxr-xr-x  51 jan  staff   1,6K 29 Mai 15:51 PDF
 -rw-r--r--@  1 jan  staff   380B  3 Dez  2021 PDFs.tex
 
-images:
-total 464
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
-drwxr-xr-x@ 20 jan  staff   640B 28 Jun 11:28 Skizze
-drwxr-xr-x  10 jan  staff   320B 28 Mai 21:59 .
--rw-r--r--@  1 jan  staff    10K 28 Mai 21:59 .DS_Store
-drwxr-xr-x  26 jan  staff   832B 28 Mai 20:48 Logo
-drwxr-xr-x   3 jan  staff    96B  5 Feb  2022 Video
--rw-r--r--@  1 jan  staff   119K 26 Nov  2021 verbrennungsmotor.jpg
--rw-r--r--@  1 jan  staff    50K 26 Nov  2021 verbrennungsmotor.pdf
--rw-r--r--@  1 jan  staff    43K 25 Okt  2021 titelbild.pdf
--rw-r--r--@  1 jan  staff   779B 25 Okt  2021 titelbild.svg
-
 code:
 total 72
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 -rw-r--r--@  1 jan  staff   6,0K 28 Mai 16:02 .DS_Store
 drwxr-xr-x  11 jan  staff   352B 28 Mai 16:02 .
 drwxr-xr-x  13 jan  staff   416B 24 Mär 18:43 .ipynb_checkpoints
@@ -336,7 +376,7 @@ drwxr-xr-x  13 jan  staff   416B 24 Mär 18:43 .ipynb_checkpoints
 
 css:
 total 24
-drwxr-xr-x@ 31 jan  staff   992B 13 Aug 15:28 ..
+drwxr-xr-x@ 30 jan  staff   960B 17 Sep 18:09 ..
 -rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
 drwxr-xr-x   4 jan  staff   128B 13 Jan  2021 .
 -rw-r--r--   1 jan  staff   1,3K 13 Jan  2021 design.css

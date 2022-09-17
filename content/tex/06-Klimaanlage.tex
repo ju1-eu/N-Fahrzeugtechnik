@@ -1,4 +1,4 @@
-%ju 13-Aug-22 06-Klimaanlage.tex
+%ju 17-Sep-22 06-Klimaanlage.tex
 \section{Aktive und Passive
 Sicherheit}\label{aktive-und-passive-sicherheit}
 
@@ -9,6 +9,10 @@ Sicherheit}\label{aktive-und-passive-sicherheit}
   \emph{Beispiele:} ABS, ESP, Klima, Scheibenwischer, ACC (adaptive
   Geschwindigkeitsregelung)
 \end{itemize}
+
+\emph{Klima}: die Raumtemperatur wird runtergekühlt, Aufmerksamkeit
+steigt und der Pollenfilter bewirkt eine geringere Allergie last für
+Allergiker.
 
 \textbf{Passive Sicherheit} Maßnahmen zur Minderung von Unfallfolgen
 
@@ -26,17 +30,20 @@ Längsachse
 \textbf{Gurtstraffer zieht Gurt nach} ca. $20 - 25~ms$ bis zu
 $15~cm$ ein.
 
+\newpage
+
 \section{Aufbau und Funktionsweise einer
 Klimaanlage}\label{aufbau-und-funktionsweise-einer-klimaanlage}
 
 \textbf{Luftgütesensor:} misst Schadstoffe in der Außenluft (Frischluft
 vs.~Innenraumluft)
 
-\textbf{Wärme} vs.~\textbf{negative Wärme} (Kälte)
+\textbf{Wärme} vs.~\textbf{geringe, hohe Wärme, Wärmeentzug} (Kälte gibt
+es in der Physik nicht)
 
 \textbf{Enthalpie} Element, das eine bestimmte Wärmeenergie hat
 
-\textbf{Komponenten}
+\subsection{Komponenten}\label{komponenten}
 
 \begin{enumerate}
 \item
@@ -61,7 +68,8 @@ vs.~Innenraumluft)
     Kompressor mit variablem Hub und externer Regelung (PWM-Signal)
   \end{itemize}
 \item
-  \textbf{Trockner} Kältemittel trocknen, filtern, beruhigen, Sammler
+  \textbf{Trockner} flüssiges Kältemittel wird entfeuchtet und
+  gefiltert, beruhigen, Sammler
 \item
   \textbf{Expansionsventil} regelt Kältemittelzufluss zum Verdampfer, um
   zu verhindern, dass der Kompressor flüssiges Kältemittel ansaugt
@@ -96,7 +104,8 @@ vs.~Innenraumluft)
   \end{itemize}
 \end{enumerate}
 
-\textbf{Funktion}
+\subsection{Funktion des
+Kältemittels}\label{funktion-des-kaeltemittels}
 
 Kältemittel nimmt Energie auf und gib sie wieder ab bei Änderung seines
 Aggregatzustandes.
@@ -116,67 +125,141 @@ Beispiel: R134a
   $55^\circ \text{C}$
 \end{itemize}
 
-\textbf{Verdampfer} verdampfen, Energie aufnehmen, \emph{Wärme\_zu}, aus
+\textbf{Verdampfer} verdampfen, Energie aufnehmen (\emph{Wärme\_zu}) aus
 der Umgebung wird Wärme entzogen. Notwendig, wenn man eine Flüssigkeit
 verdampfen möchte. (flüssig $\to$ gasförmig)
 
 vs.
 
-\textbf{Kondensator} kondensieren, Energie abgeben, \emph{Wärme\_ab} an
+\textbf{Kondensator} kondensieren, Energie abgeben (\emph{Wärme\_ab}) an
 die Umgebung (gasförmig $\to$ flüssig)
 
 \textbf{Wärmepumpe} Heizen (PTC) und Kühlen
 
-\section{Kältemittelkreislauf}\label{kaeltemittelkreislauf}
+\newpage
+
+\subsection{Erkläre den
+Kältemittelkreislauf}\label{erklaere-den-kaeltemittelkreislauf}
 
 \begin{figure}[!ht]% hier: !ht
 \centering
-\includegraphics[width=0.5\textwidth]{images/Skizze/Klimakreislauf-1.pdf}
+\includegraphics[width=0.7\textwidth]{images/Skizze/Klimakreislauf-1.pdf}
 \caption{Klimakreislauf}
 %\label{fig:}%% anpassen
 \end{figure}
 
 \begin{enumerate}
 \item
-  \textbf{Kompressor} (Gasverdichter, Komprimieren, Druck steigt,
-  gasförmig) der kalte Dampf (gasförmig) wird abgesaugt und verdichtet.
-  Dadurch steigt Druck und Temperatur des Gases.
-
-  \begin{itemize}
-  \item
-    Umlauf des Kältemittels
-  \item
-    Fördermenge beeinflusst Kälteleistung
-  \end{itemize}
+  \textbf{Kompressor} (Gasverdichter, gasförmig, Verdichten, Druck
+  steigt) saugt das abgekühlte gasförmige Kältemittel an und verdichtet
+  es. Druck und Temperatur steigt (Druckanstieg). Das Kältemittel
+  erwärmt sich, wird aber nicht komplett flüssig. Deshalb schieben wir
+  es durch den Kondensator.
 \item
-  \textbf{Kondensator} (Verflüssiger, Kondensieren) das unter hohen
-  Druck stehende heiße Gas wird in den Kondensator gepresst. Durch den
-  Fahrtwind / Lüfter wird das heiße Gas abgekühlt und verflüssigt. Je
-  besser gekühlt wird, desto geringer der Druck.
-
-  \begin{itemize}
-  \item
-    Aggregatzustandswechsel: gasförmig $\to$ flüssig (Druck ist
-    konstant)
-  \item
-    \textbf{Trockner} flüssiges Kältemittel wird entfeuchtet und
-    gefiltert.
-  \end{itemize}
+  \textbf{Kondensator} (Verflüssiger, Kondensieren) hier wird das
+  Kältemittel von der Umgebungsluft durchströmt und abgekühlt.
+  Aggregatzustand wechsel von gasförmig $\to$ flüssig (Druck ist
+  konstant). Kältemittel wird flüssig, wenn es den Kondensator verlässt.
 \item
   \textbf{Expansionsventil} (Dosiereinheit, Druckminderer, Drossel,
-  Expandieren, flüssig) Kältemittel expandiert (Druck sinkt) und regelt
-  die Menge des Kältemittels zum Verdampfer.
+  Expandieren, flüssig) Kältemittel expandiert durch die Drossel (Druck
+  abfall) und lässt bedarfsgerecht eine bestimmte definierte Menge
+  Kältemittel durch Strömen.
 \item
-  \textbf{Verdampfer} (Verdampfen) warme Luft bringt das entspannte
-  flüssige Kältemittel bei geringer Temperatur zum Verdampfen. Dabei
-  entzieht das Kältemittel der Luft Wärme und kühlt sie ab.
-
-  \begin{itemize}
-  \item
-    Aggregatzustandswechsel: flüssig $\to$ gasförmig (Druck ist
-    konstant)
-  \end{itemize}
+  \textbf{Verdampfer} (Verdampfen) dadurch wird ein Aggregatzustand
+  wechsel von flüssig $\to$ gasförmig (Druck ist konstant)
+  gewährleistet. Die durch den Verdampfer strömende Umgebungsluft
+  runterkühlen und in den Innenraum einströmen lassen. Dabei entzieht
+  das Kältemittel der Umgebungsluft Wärme und kühlt sie ab.
 \end{enumerate}
+
+\newpage
+
+\subsection{Kunde bemängelt, Klimaanlage kühlt nicht
+richtig}\label{kunde-bemaengelt-klimaanlage-kuehlt-nicht-richtig}
+
+\textbf{Es wurde beispielsweise nur 100 g Kältemittel abgesaugt. Kann
+die Klimaanlage wieder befüllt werden?}
+
+Nicht befüllen $\to$ wir machen uns strafbar.
+
+Kältemittel absaugen und mit Stickstoff auf Undichtigkeit prüfen.
+
+\textbf{Verlust an Kältemittel}
+$[\%] \, \boxed{= \frac{\text{abgesaugte Menge}}{\text{Füllmenge}} \cdot 100} \quad \text{Beispiel: } \frac{180~g}{640~g} \cdot 100 = 28~\%$
+
+Jährlich ca. $10~\%$ Verlust normal.
+
+\subsection{Was ist der Unterschied zwischen intern und extern geregelte
+Klimakompressoren?}\label{was-ist-der-unterschied-zwischen-intern-und-extern-geregelte-klimakompressoren}
+
+\textbf{Intern}, die Stellung der Taumelscheibe und damit die
+Fördermenge wird durch ein Regelventil bestimmt. Kann bei Bedarf über
+eine Magnetkupplung entkoppelt und damit komplett ausgeschaltet werden.
+
+\emph{Nachteil:} >>kaputt stehen<< eine Klimaanlage nimmt Schaden, wenn
+sie nicht regelmäßig eingeschaltet wird (Dichtungen, Schmierung)
+
+\textbf{Extern} keine Magnetkupplung, mit Überlastschutz, Anlage läuft
+immer, aber Fördermenge wird runtergeregelt auf ca. $2~\%$
+
+\emph{Nachteil:} Reibung
+
+\subsection{Kältemittel R744 - Problem bei hohen
+Außentemperaturen}\label{kaeltemittel-r744-problem-bei-hohen-aussentemperaturen}
+
+Klima funktioniert schlecht bei zu hohen Außentemperaturen
+$> 35^\circ\text{C}$. Kältemittel wird nicht genug runtergekühlt.
+
+\subsection{Warum sollte man eine Klimaanlage spülen und welche
+Möglichkeiten gibt
+es?}\label{warum-sollte-man-eine-klimaanlage-spuelen-und-welche-moeglichkeiten-gibt-es}
+
+Bei Verunreinigungen, Beispiel Kompressor schaden.
+
+\begin{itemize}
+\item
+  Sieb Einsätze
+\item
+  Formiergas, Stickstoff, mit Kältemittel (Quelle: Andreas Lamm)
+\end{itemize}
+
+\textbf{Offene Anlage} Trockner erneuern oder Anlage verschließen.
+
+\subsection{Desinfizieren einer
+Klimaanlage}\label{desinfizieren-einer-klimaanlage}
+
+\begin{itemize}
+\item
+  Ozongeräte (24h)
+\item
+  Spray (geringe Wirkung)
+\end{itemize}
+
+\subsection{Warum läuft aus der Klimaanlage Wasser bei heißem
+Wetter?}\label{warum-laeuft-aus-der-klimaanlage-wasser-bei-heissem-wetter}
+
+\begin{itemize}
+\item
+  \textbf{Sommer} schwüles Wetter hat eine hohe Luftfeuchtigkeit
+\item
+  \textbf{Winter} kalte Luft hat eine geringe Luftfeuchtigkeit
+\end{itemize}
+
+\subsection{Welche Kältemittelöle gibt es und wo ist der
+Unterschied?}\label{welche-kaeltemitteloele-gibt-es-und-wo-ist-der-unterschied}
+
+Herstellerangaben befolgen - Typenschild auf dem Klimakompressor
+
+\begin{itemize}
+\item
+  \textbf{PAG-Öle} hygroskopisch
+\item
+  \textbf{POE-Öle} Polyester-Öl, elektrisch isolierendes
+  Klimakompressoröl
+\end{itemize}
+
+\newpage
 
 \section{Klimaservice}\label{klimaservice}
 
@@ -188,7 +271,7 @@ die Umgebung (gasförmig $\to$ flüssig)
   Richtwerte \textcite{schmidt:2015:klima} S. 120)
 \end{itemize}
 
-\textbf{Betriebsdruck} (Motor an im LL, Klima ON, max. Gebläse, Keine
+\textbf{Betriebsdruck} (Motor an im LL, Klima ON, max. Gebläse, keine
 Umluft, Heizung OFF, Temp. LOW, $5 - 10~\text{Min.}$ laufen lassen)
 
 \begin{itemize}
@@ -211,7 +294,7 @@ Umluft, Heizung OFF, Temp. LOW, $5 - 10~\text{Min.}$ laufen lassen)
   \end{itemize}
 \end{itemize}
 
-\textbf{Klimadiagnose}
+\subsection{Klimadiagnose}\label{klimadiagnose}
 
 \begin{enumerate}
 \item
@@ -251,12 +334,15 @@ Kondensatorlüfter \\
 \end{tabular} 
 \end{table}
 
-Anhand der Leitungstemperaturen auf mögliche defekte im
+Anhand der Leitungstemperaturen auf mögliche Defekte im
 Kältemittelkreislauf schließen (\textcite{schmidt:2015:klima} S. 115).
 
-Übersicht über fehlerhafte Füllmengen und Komponenten die sich an den
+Übersicht über fehlerhafte Füllmengen und Komponenten, die sich an den
 Druckmanometern widerspiegeln können (\textcite{schmidt:2015:klima} S. 116
 -- 117).
+
+\subsection{Magnetkupplung und Kondensatorlüfter
+prüfen}\label{magnetkupplung-und-kondensatorluefter-pruefen}
 
 \textbf{Magnetkupplung am Kompressor prüfen}
 
@@ -283,10 +369,10 @@ Druckmanometern widerspiegeln können (\textcite{schmidt:2015:klima} S. 116
 
 \begin{itemize}
 \item
-  Sicherung, Relais, Verkabelung, Motor, Schwergängigkeit
+  Sicherung, Relais, Verkabelung, Motor, schwergängig
 \end{itemize}
 
-\textbf{Klima-Service-Gerät}
+\subsection{Klima-Service-Gerät}\label{klima-service-geraet}
 
 \begin{itemize}
 \item
@@ -311,8 +397,3 @@ Phasen
 \item
   \textbf{Auffüllen} (von Kältemittel und Kompressoröl)
 \end{enumerate}
-
-\textbf{Verlust an Kältemittel}
-$[\%] \, \boxed{= \frac{\text{abgesaugte Menge}}{\text{Füllmenge}} \cdot 100} \quad \text{Beispiel: } \frac{180~g}{640~g} \cdot 100 = 28~\%$
-
-Jährlich ca. $10~\%$ Verlust normal.

@@ -1,0 +1,130 @@
+%ju 17-Sep-22 08-Hybrid.tex
+\textbf{Was ist ein Hybridfahrzeug? Hybrid-Vehicle (HV)} ist mit
+mindestens zwei unterschiedlichen Energiewandlern und -speichern für den
+Antrieb des Fahrzeuges ausgestattet.
+
+Beispiel: Verbrennungsmotor und Kraftstofftank \& E-Motor und
+HV-Batterie
+
+\section{Arten von Hybriden}\label{arten-von-hybriden}
+
+\begin{enumerate}
+\item
+  \textbf{Micro-Hybrid:} Regeneratives Bremsen, Start-Stopp
+\item
+  \textbf{Mild-Hybrid:} Regeneratives Bremsen, Start-Stopp,
+  Drehmomentunterstützung
+\item
+  \textbf{Full-Hybrid:} Regeneratives Bremsen, Start-Stopp,
+  Drehmomentunterstützung, Elektrisches Fahren
+\item
+  \textbf{Plug-in-Hybrid:} Regeneratives Bremsen, Start-Stopp,
+  Drehmomentunterstützung, Elektrisches Fahren, Steckdosenaufladung
+\end{enumerate}
+
+\textbf{Boosten} Drehmomentunterstützung (Verbrennungsmotor
+unterstützen)
+
+\textbf{Rekuperation} Regeneratives Bremsen (Bremsenergierückgewinnung
+$\to$ Batterie Laden)
+
+\section{Antriebskonzepte}\label{antriebskonzepte}
+
+Leistungsverzweigter Hybrid S. 52 (\textcite{schmidt:2021:hybrid}) und
+Antriebskonzepte S. 1000 (\textcite{reif:2022:boschkraftfahrtechnisches}).
+
+E-Maschine = \textbf{MG1 / MG2} (E-Motor / Generator), \textbf{V-Motor}
+(Verbrennungsmotor), \textbf{Planetengetriebe} (Planetenradsätze und
+Lamellenkupplung), Getriebe, Achsantrieb, Inverter (Pulswechselrichter)
+
+\begin{enumerate}
+\item
+  \textbf{Serieller Hybrid}
+
+  \begin{itemize}
+  \item
+    Antrieb: durch E-Motor
+  \item
+    Verbrennungsmotor wird im Drehzahlfenster betrieben (mechanisch
+    nicht mit Antriebstrang verbunden)
+  \item
+    Serieller Energiefluss
+
+    \begin{enumerate}
+    \def\labelenumii{\arabic{enumii}.}
+    \item
+      V-Motor $\to$ Generator $\to$ Inverter $\leftrightarrow$
+      HV-Batterie
+    \item
+      Inverter $\leftrightarrow$ E-Motor $\leftrightarrow$
+      Achsantrieb
+    \end{enumerate}
+  \item
+    Nachteil: schlechter Wirkungsgrad ($3\text{x}$ mehr Leistung
+    reinstecken!)
+  \item
+    Beispiel: Range-Extender (Reichweitenverlängerung)
+  \end{itemize}
+\item
+  \textbf{Paralleler Hybrid}
+
+  \begin{itemize}
+  \item
+    Antrieb: durch E-Motor oder V-Motor (mechanisch mit Antriebstrang
+    verbunden) oder beide parallel
+  \item
+    \emph{eine Kupplung zwischen E-Maschine $\parallel$ Getriebe -
+    Achsantrieb}
+  \item
+    Energiefluss:
+
+    \begin{enumerate}
+    \def\labelenumii{\arabic{enumii}.}
+    \item
+      V-Motor $\to$ Achsantrieb
+    \item
+      Batterie $\leftrightarrow$ Inverter $\leftrightarrow$ MG
+      $\leftrightarrow$ Achsantrieb
+    \end{enumerate}
+  \item
+    \emph{zwei Kupplungen zwischen V-Motor $\parallel$ E-Maschine
+    $\parallel$ Getriebe - Achsantrieb}
+  \item
+    Energiefluss:
+
+    \begin{enumerate}
+    \def\labelenumii{\arabic{enumii}.}
+    \item
+      V-Motor $\to$ Achsantrieb
+    \item
+      Batterie $\leftrightarrow$ Inverter $\leftrightarrow$ MG
+      $\leftrightarrow$ Achsantrieb
+    \end{enumerate}
+  \end{itemize}
+\item
+  \textbf{Leistungsverzweigter Hybrid}
+
+  \begin{itemize}
+  \item
+    Antrieb: durch zwei E-Motoren und V-Motor (mechanisch mit
+    Antriebstrang verbunden)
+  \item
+    Nachteil: aufwändiges Getriebe
+  \item
+    Leistungsverzweigung (Planetengetriebe)
+  \item
+    V-Motor (Drehmoment aufteilen)
+
+    \begin{enumerate}
+    \def\labelenumii{\arabic{enumii}.}
+    \item
+      Teil $\to$ MG1 als Generator
+    \item
+      Teil $\to$ Fahrzeugantrieb
+    \end{enumerate}
+  \item
+    V-Motor + E-Motor $\to$ Fahrzeugantrieb
+  \item
+    Schub- u. Bremsphase: Generator $\to$ Rekuperation
+  \end{itemize}
+\end{enumerate}

@@ -17,10 +17,10 @@ Tabellenbuch ([@bell:2021:tabellenbuchKfz] S. 281)
 FS ([@bell:2020:formelsammlung] S. 32 - 37)
 #
 ## 
-ju 15-4-22
+ju 4-9-22 Druckberechnung am Pleuellager
 +----------------------------------------------------->
 
-# Druckberechnung am Pleuellager
+**Lösungshinweise zur Aufgabe 1**
 
 **Kolbenflächenberechnung:** $\boxed{A = \frac{d^2}{4} \cdot \pi}$
 

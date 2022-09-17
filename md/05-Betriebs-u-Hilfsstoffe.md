@@ -18,7 +18,7 @@ FS ([@bell:2020:formelsammlung] S. 32 - 37)
 ^\circ\text{C}
 #
 ## 
-ju 1-7-22
+ju 11-9-22
 +----------------------------------------------------->
 
 # Was sind Betriebsstoffe?
@@ -373,10 +373,10 @@ Wasserstoff wird durch Elektrolyse gewonnen. Dabei wird mithilfe der elektrische
 
 *Bemerkung:* **Abgasnachbehandlung**
 
-1. **Oxidationskatalysator** (Sauerstoff wird frei), Arbeitsbereich $400 - 800~^\circ\text{C}$, ca. $350~^\circ\text{C}$ "light-off-Point" ($50~\%$ Umwandlungsrate)
-    - Benzin: $CO + O_2 \to CO_2$, $HC + O_2 \to CO_2 + H_{2}O$, $NO_\text{x} \to N_2 + O_2$
+1. **Oxidationskatalysator** (Sauerstoff), Arbeitsbereich $400 - 800~^\circ\text{C}$, ca. $350~^\circ\text{C}$ "light-off-Point" ($50~\%$ Umwandlungsrate)
+    - Benzin: Oxidation $CO + O_2 \to CO_2$, $HC + O_2 \to CO_2 + H_{2}O$, Reduktion $NO_\text{x}  \to N_2 + O_2$
     - Diesel: $CO \to CO_2$, $HC \to CO_2 + H_{2}O$
-    - (Kohlenmonoxid in Kohlenstoffdioxid, unverbrannte Kohlenwasserstoffe in Kohlenstoffdioxid und Wasser, Stickoxide in Stickstoff und Sauerstoff)
+    - (Kohlenmonoxid in Kohlenstoffdioxid, unverbrannte Kohlenwasserstoffe (Kraftstoff) in Kohlenstoffdioxid und Wasser, Stickoxide in Stickstoff und Sauerstoff)
 
 1. **Dieselpartikelfilter** (DPF-Regeneration) ab ca. $600~^\circ\text{C}$ 
     - $\text{PM} + O_2 \to CO_{2}$ (Partikel und Sauerstoff in Kohlenstoffdioxid)
@@ -386,7 +386,7 @@ Wasserstoff wird durch Elektrolyse gewonnen. Dabei wird mithilfe der elektrische
 
 1. **SCR-Katalysator** (selektive katalytische Reduktion) ab ca. $170 - 250~^\circ\text{C}$
     - **chemische Prozess** Dosierventil $\to$ **Hydrolysestrecke** Harnstoff $\to$ Ammoniak (Reduktionsmittel, Gefahrstoff, giftig) $\to$ SCR-Katalysator $\to$ Stickoxidreduktion:
-    - $NO_\text{x} + NH_\text{3} \to N_2 + H_{2}O$ (Stickoxide und Ammoniak in Stickstoff und Wasser)
+    - $NO + NO + 2NH_3 \to 2N_2 + 3H_{2}O$ (Stickoxide und Ammoniak in Stickstoff und Wasser)
 
 1. **NOx-Speicherkatalysator** wird von Schwefelbestandteilen zugesetzt und muss regeneriert werden.
 

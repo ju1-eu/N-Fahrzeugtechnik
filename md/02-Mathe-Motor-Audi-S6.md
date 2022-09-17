@@ -17,13 +17,10 @@ Tabellenbuch ([@bell:2021:tabellenbuchKfz] S. 281)
 FS ([@bell:2020:formelsammlung] S. 32 - 37)
 #
 ## 
-ju 15-4-22
+ju 4-9-22 Motorberechnung - siehe Datenblatt Audi S6
 +----------------------------------------------------->
 
-# Motorberechnung - siehe Datenblatt Audi S6
-
-Tabellenbuch ([@bell:2021:tabellenbuchKfz] S. 32 - 33)
-FS ([@bell:2020:formelsammlung] S. 32 - 37)
+Tabellenbuch S. 32 - 33 ([@bell:2021:tabellenbuchKfz]) und FS S. 32 - 37 ([@bell:2020:formelsammlung]).
 
 **Aufgabe 1a Zylinderhubraum**
 
