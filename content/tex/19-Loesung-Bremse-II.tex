@@ -1,0 +1,138 @@
+%ju 26-Dez-22 19-Loesung-Bremse-II.tex
+\textbf{1) Was versteht man unter Schlupf?}
+
+Schlupf ist die Differenz zwischen der Fahrgeschwindigkeit und der
+Radumfangsgeschwindigkeit.
+
+\textbf{2) Was geschieht während der ABS -- Regelung?}
+
+\begin{itemize}
+\item
+  Zunächst wird der Druckaufbau gestoppt
+\item
+  Wenn der Schlupf weiter zunimmt, wird der Druck geringfügig gesenkt
+\item
+  Wenn der Schlupf wieder abnimmt, wird der Druck erhöht, um im
+  optimalen Bremsbereich zu bleiben
+\end{itemize}
+
+Bemerkung:
+
+Das ABS-Steuergerät erhält zur Regelung des Bremsvorgangs die
+Radgeschwindigkeit von den Raddrehzahlsensoren.
+
+\begin{itemize}
+\item
+  sinusförmige Wechselspannung (Induktivgeber)
+\item
+  oder ein Rechtecksignal (Hallgeber)
+\end{itemize}
+
+Daraus wird eine Fahrzeug-Referenzgeschwindigkeit gebildet. Das
+Steuergerät erkennt Drehzahländerungen an einem oder mehreren Rädern.
+
+Sinkt die Raddrehzahl innerhalb einer Zeitspanne oder in Bezug auf die
+Referenzgeschwindigkeit, wird das als Blockiergefahr erkannt.
+
+\textbf{3) Wie viele ABS -- Regelkreise können bei einem Fahrzeug mit
+hydraulischer Bremsanlage vorhanden sein? Wie sind diese ggf.
+zugeordnet?}
+
+\begin{itemize}
+\item
+  2 $\to$ je ein Regelkreis pro Vorderrad
+\item
+  3 $\to$ je ein Regelkreis für jedes Rad der Vorderachse und ein
+  gemeinsamer Regelkreis für die Räder der Hinterachse.
+\item
+  4 $\to$ je ein Regelkreis für jedes Rad der Vorder- und Hinterachse
+\end{itemize}
+
+\textbf{4) Wie ist ein aktiver Drehzahlsensor aufgebaut?}
+
+Der Hall-Sensor besteht im Wesentlichen aus einem stromdurchflossen,
+Halbleiterbauelement und einem magnetischen, in Nord- und Südpole
+unterteilten Impulsring. Ändert sich die Polarität des, auf das
+Hall-Element wirkenden Magnetfeldes, ändert sich die Hallspannung
+innerhalb des Halbleiters, woraus die integrierte Auswerteelektronik ein
+Rechtecksignal formt und dieses an das Steuergerät sendet. Die Frequenz
+des Rechteckssignals ist proportional zur Raddrehzahl.
+
+\textbf{5) Warum lässt sich ein Fahrzeug bei Ausfall des ABS noch normal
+bremsen?}
+
+In der Ruhelage sind die Magnetventile in der Hydraulikeinheit
+einlassseitig geöffnet und auslassseitig geschlossen.
+
+\textbf{6) Wie ist die grundsätzliche Wirkungsweise der
+Antriebsschlupfregelung (ASR)?}
+
+Wird an einem der Antriebsräder ein erhöhter Schlupf (> 8
+-- 35 \%) erkannt, so wird systemabhängig das Motordrehmoment reduziert
+und/oder die durchdrehenden Rad/Räder mithilfe der Betriebsbremse
+abgebremst.
+
+\textbf{7) Was wird durch die Motorschleppmomentregelung (MSR)
+verhindert?}
+
+Verhindert durch automatische Erhöhung des Motormoments, dass die
+Antriebsräder aufgrund der Abbremsung durch den Motor bei plötzlicher
+Gaswegnahme oder beim Zurückschalten einen erhöhten Schlupf aufweisen.
+
+\textbf{8) Was versteht man unter dem Begriff >>Giermoment<<?}
+
+\textbf{Giermoment / Drehrate} Drehung des Fahrzeugs um die
+Fahrzeughochachse
+
+\textbf{9) Welche Systeme bilden mit ihren Funktionen das eigentliche
+elektronische Stabilitätsprogramm (ESP)?}
+
+\begin{enumerate}
+\item
+  (+) Antiblockiersystem (ABS)
+\item
+  (+) Elektronische Bremskraftverteilung (EBV)
+\item
+  (+) Antriebsschlupfregelung (ASR)
+\item
+  (+) Motorschleppmomentregelung (MSR)
+\item
+  (+) Giermomentregelung (GMR)
+\item
+  (=) Fahrdynamikregelsystem (FDR) = Elektronisches Stabilitätsprogramm
+  (ESP)
+\end{enumerate}
+
+\textbf{10) Wie reagiert das ESP -- Steuergerät beim Übersteuern eines
+Fahrzeugs mit Standardantrieb?}
+
+\textbf{ESP-Eingriff beim Übersteuern:}
+
+\begin{itemize}
+\item
+  \emph{ohne ESP} würde beim Fahrzeug das Heck ausbrechen und der Fahrer
+  muss gegenlenken.
+\item
+  \emph{mit ESP} unterstützt den Fahrer durch einen Bremseingriff,
+  vorwiegend am kurvenäußeren Vorderrad. Dadurch entsteht ein
+  Giermoment/Drehrate um die Hochachse, das das Auto wieder auf den
+  gewünschten Fahrkurs zieht.
+\item
+  Das Antriebsmoment der Hinterräder gesenkt und deren
+  Seitenführungskräfte zu erhöhen
+\end{itemize}
+
+Bemerkung:
+
+\textbf{ESP-Eingriff beim Untersteuern:}
+
+\begin{itemize}
+\item
+  \emph{ohne ESP} würde das Fahrzeug über die Vorderräder aus der Kurve
+  schieben.
+\item
+  \emph{mit ESP} unterstützt die Lenkkorrektur des Fahrers durch einen
+  Bremseingriff, vorwiegend am kurveninneren Hinterrad. Dadurch entsteht
+  ein Giermoment/Drehrate um die Hochachse, das das Auto in die Kurve
+  hineindreht.
+\end{itemize}

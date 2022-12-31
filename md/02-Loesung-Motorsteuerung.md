@@ -17,7 +17,7 @@ Tabellenbuch ([@bell:2021:tabellenbuchKfz] S. 281)
 FS ([@bell:2020:formelsammlung] S. 32 - 37)
 #
 ## 
-ju 15-4-22
+ju 22-11-22
 +----------------------------------------------------->
 
 **1) Welche Aufgabe übernehmen die Ventile eines Verbrennungsmotors?**
@@ -55,7 +55,7 @@ Die Ventildrehvorrichtung hat die Aufgabe, die Ventile bei laufendem Motor konti
 **5) Beschreiben Sie Aufbau und Wirkungsweise eines Hohlventils. (inkl. Temperaturangaben!)**
 
 Hohlventile sind im Schaft, teilweise auch im Teller hohl. Dieser Hohlraum ist zu ca. $60 - 70~\%$ mit metallischem Natrium gefüllt, bei ca. $98^\circ\text{C}$ schmilzt das Natrium und bewegt sich hervorgerufen durch die Ventilbewegung im Ventil auf und ab. Bei jeder Bewegung nimmt es am Ventilteller Wärme auf und gibt diese am Ventilschaft ab. Der Abkühleffekt am Ventilteller liegt bei ca. $80 - 150^\circ\text{C}$. 
-Durch die hohlgeborte Form des Ventils verringert sich seine Masse. Kann auch als Einlassventil verwendet werden.
+Durch die hohlgebohrte Form des Ventils verringert sich seine Masse. Kann auch als Einlassventil verwendet werden.
 
 **6) Warum besteht zwischen dem Sitzwinkel des Ventilsitzringes im Zylinderkopf und dem am Ventil oftmals eine Differenz von ca. 1°?**
 

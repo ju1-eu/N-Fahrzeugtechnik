@@ -1,0 +1,352 @@
+<!-----------------------------------------------
+Alle Abbildungen 'images/' in Markdown speichern.
+	* 'archiv/input-img.txt'
+ju 05-Okt-2022 input-img.txt
+------------------------------------------------->
+
+
+<!--cover vgl. abb.-->
+
+![cover](images/cover.pdf){width=60%}
+
+
+<!--titelbild vgl. abb.-->
+
+![titelbild](images/titelbild.pdf){width=60%}
+
+
+<!--CAN-Bus-1 vgl. abb.-->
+
+![CAN-Bus-1](images/Skizze/CAN-Bus-1.pdf){width=60%}
+
+
+<!--CAN-Bus-10 vgl. abb.-->
+
+![CAN-Bus-10](images/Skizze/CAN-Bus-10.pdf){width=60%}
+
+
+<!--CAN-Bus-11 vgl. abb.-->
+
+![CAN-Bus-11](images/Skizze/CAN-Bus-11.pdf){width=60%}
+
+
+<!--CAN-Bus-2 vgl. abb.-->
+
+![CAN-Bus-2](images/Skizze/CAN-Bus-2.pdf){width=60%}
+
+
+<!--CAN-Bus-3 vgl. abb.-->
+
+![CAN-Bus-3](images/Skizze/CAN-Bus-3.pdf){width=60%}
+
+
+<!--CAN-Bus-4 vgl. abb.-->
+
+![CAN-Bus-4](images/Skizze/CAN-Bus-4.pdf){width=60%}
+
+
+<!--CAN-Bus-5 vgl. abb.-->
+
+![CAN-Bus-5](images/Skizze/CAN-Bus-5.pdf){width=60%}
+
+
+<!--CAN-Bus-6 vgl. abb.-->
+
+![CAN-Bus-6](images/Skizze/CAN-Bus-6.pdf){width=60%}
+
+
+<!--CAN-Bus-7 vgl. abb.-->
+
+![CAN-Bus-7](images/Skizze/CAN-Bus-7.pdf){width=60%}
+
+
+<!--CAN-Bus-8 vgl. abb.-->
+
+![CAN-Bus-8](images/Skizze/CAN-Bus-8.pdf){width=60%}
+
+
+<!--CAN-Bus-9 vgl. abb.-->
+
+![CAN-Bus-9](images/Skizze/CAN-Bus-9.pdf){width=60%}
+
+
+<!--Diesel-1 vgl. abb.-->
+
+![Diesel-1](images/Skizze/Diesel-1.pdf){width=60%}
+
+
+<!--Diesel-10 vgl. abb.-->
+
+![Diesel-10](images/Skizze/Diesel-10.pdf){width=60%}
+
+
+<!--Diesel-11 vgl. abb.-->
+
+![Diesel-11](images/Skizze/Diesel-11.pdf){width=60%}
+
+
+<!--Diesel-12 vgl. abb.-->
+
+![Diesel-12](images/Skizze/Diesel-12.pdf){width=60%}
+
+
+<!--Diesel-13 vgl. abb.-->
+
+![Diesel-13](images/Skizze/Diesel-13.pdf){width=60%}
+
+
+<!--Diesel-14 vgl. abb.-->
+
+![Diesel-14](images/Skizze/Diesel-14.pdf){width=60%}
+
+
+<!--Diesel-15 vgl. abb.-->
+
+![Diesel-15](images/Skizze/Diesel-15.pdf){width=60%}
+
+
+<!--Diesel-16 vgl. abb.-->
+
+![Diesel-16](images/Skizze/Diesel-16.pdf){width=60%}
+
+
+<!--Diesel-17 vgl. abb.-->
+
+![Diesel-17](images/Skizze/Diesel-17.pdf){width=60%}
+
+
+<!--Diesel-18 vgl. abb.-->
+
+![Diesel-18](images/Skizze/Diesel-18.pdf){width=60%}
+
+
+<!--Diesel-19 vgl. abb.-->
+
+![Diesel-19](images/Skizze/Diesel-19.pdf){width=60%}
+
+
+<!--Diesel-2 vgl. abb.-->
+
+![Diesel-2](images/Skizze/Diesel-2.pdf){width=60%}
+
+
+<!--Diesel-20 vgl. abb.-->
+
+![Diesel-20](images/Skizze/Diesel-20.pdf){width=60%}
+
+
+<!--Diesel-21 vgl. abb.-->
+
+![Diesel-21](images/Skizze/Diesel-21.pdf){width=60%}
+
+
+<!--Diesel-22 vgl. abb.-->
+
+![Diesel-22](images/Skizze/Diesel-22.pdf){width=60%}
+
+
+<!--Diesel-23 vgl. abb.-->
+
+![Diesel-23](images/Skizze/Diesel-23.pdf){width=60%}
+
+
+<!--Diesel-24 vgl. abb.-->
+
+![Diesel-24](images/Skizze/Diesel-24.pdf){width=60%}
+
+
+<!--Diesel-3 vgl. abb.-->
+
+![Diesel-3](images/Skizze/Diesel-3.pdf){width=60%}
+
+
+<!--Diesel-4 vgl. abb.-->
+
+![Diesel-4](images/Skizze/Diesel-4.pdf){width=60%}
+
+
+<!--Diesel-5 vgl. abb.-->
+
+![Diesel-5](images/Skizze/Diesel-5.pdf){width=60%}
+
+
+<!--Diesel-6 vgl. abb.-->
+
+![Diesel-6](images/Skizze/Diesel-6.pdf){width=60%}
+
+
+<!--Diesel-7 vgl. abb.-->
+
+![Diesel-7](images/Skizze/Diesel-7.pdf){width=60%}
+
+
+<!--Diesel-8 vgl. abb.-->
+
+![Diesel-8](images/Skizze/Diesel-8.pdf){width=60%}
+
+
+<!--Diesel-9 vgl. abb.-->
+
+![Diesel-9](images/Skizze/Diesel-9.pdf){width=60%}
+
+
+<!--Generator-1 vgl. abb.-->
+
+![Generator-1](images/Skizze/Generator-1.pdf){width=60%}
+
+
+<!--Generator-2 vgl. abb.-->
+
+![Generator-2](images/Skizze/Generator-2.pdf){width=60%}
+
+
+<!--Generator-3 vgl. abb.-->
+
+![Generator-3](images/Skizze/Generator-3.pdf){width=60%}
+
+
+<!--Generator-4 vgl. abb.-->
+
+![Generator-4](images/Skizze/Generator-4.pdf){width=60%}
+
+
+<!--HV-1 vgl. abb.-->
+
+![HV-1](images/Skizze/HV-1.pdf){width=60%}
+
+
+<!--HV-10 vgl. abb.-->
+
+![HV-10](images/Skizze/HV-10.pdf){width=60%}
+
+
+<!--HV-11 vgl. abb.-->
+
+![HV-11](images/Skizze/HV-11.pdf){width=60%}
+
+
+<!--HV-12 vgl. abb.-->
+
+![HV-12](images/Skizze/HV-12.pdf){width=60%}
+
+
+<!--HV-13 vgl. abb.-->
+
+![HV-13](images/Skizze/HV-13.pdf){width=60%}
+
+
+<!--HV-14 vgl. abb.-->
+
+![HV-14](images/Skizze/HV-14.pdf){width=60%}
+
+
+<!--HV-15 vgl. abb.-->
+
+![HV-15](images/Skizze/HV-15.pdf){width=60%}
+
+
+<!--HV-2 vgl. abb.-->
+
+![HV-2](images/Skizze/HV-2.pdf){width=60%}
+
+
+<!--HV-3 vgl. abb.-->
+
+![HV-3](images/Skizze/HV-3.pdf){width=60%}
+
+
+<!--HV-4 vgl. abb.-->
+
+![HV-4](images/Skizze/HV-4.pdf){width=60%}
+
+
+<!--HV-5 vgl. abb.-->
+
+![HV-5](images/Skizze/HV-5.pdf){width=60%}
+
+
+<!--HV-6 vgl. abb.-->
+
+![HV-6](images/Skizze/HV-6.pdf){width=60%}
+
+
+<!--HV-7 vgl. abb.-->
+
+![HV-7](images/Skizze/HV-7.pdf){width=60%}
+
+
+<!--HV-8 vgl. abb.-->
+
+![HV-8](images/Skizze/HV-8.pdf){width=60%}
+
+
+<!--HV-9 vgl. abb.-->
+
+![HV-9](images/Skizze/HV-9.pdf){width=60%}
+
+
+<!--Klima-1 vgl. abb.-->
+
+![Klima-1](images/Skizze/Klima-1.pdf){width=60%}
+
+
+<!--Klima-2 vgl. abb.-->
+
+![Klima-2](images/Skizze/Klima-2.pdf){width=60%}
+
+
+<!--Logo-Details vgl. abb.-->
+
+![Logo-Details](images/Logo/Logo-Details.pdf){width=60%}
+
+
+<!--Logo-Farbe vgl. abb.-->
+
+![Logo-Farbe](images/Logo/Logo-Farbe.pdf){width=60%}
+
+
+<!--Logo-Grau vgl. abb.-->
+
+![Logo-Grau](images/Logo/Logo-Grau.pdf){width=60%}
+
+
+<!--Logo-SW vgl. abb.-->
+
+![Logo-SW](images/Logo/Logo-SW.pdf){width=60%}
+
+
+<!--Logo-negativ vgl. abb.-->
+
+![Logo-negativ](images/Logo/Logo-negativ.pdf){width=60%}
+
+
+<!--Logo1 vgl. abb.-->
+
+![Logo1](images/Logo/Logo1.pdf){width=60%}
+
+
+<!--Logo2 vgl. abb.-->
+
+![Logo2](images/Logo/Logo2.pdf){width=60%}
+
+
+<!--Logo3 vgl. abb.-->
+
+![Logo3](images/Logo/Logo3.pdf){width=60%}
+
+
+<!--logo-eps-converted-to vgl. abb.-->
+
+![logo-eps-converted-to](images/Logo/logo-eps-converted-to.pdf){width=60%}
+
+
+<!--logo vgl. abb.-->
+
+![logo](images/Logo/logo.pdf){width=60%}
+
+
+<!--titelbild vgl. abb.-->
+
+![titelbild](images/Logo/titelbild.pdf){width=60%}
+
+

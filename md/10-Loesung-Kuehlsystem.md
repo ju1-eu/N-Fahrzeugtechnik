@@ -1,0 +1,87 @@
+---
+title: 'L-Kühlsystem'
+author: ''
+date: \today
+subject: "Markdown"
+keywords: [Markdown]
+lang: "de"
+bibliography: literatur-kfz.bib 
+csl: zitierstil-number.csl
+---
+<!-----------------------------
+![, Quelle: Europa-Verlag](images/Kühlsystem/Kuehlsystem-.pdf){width=70%}
+ju 28-10-22 Kühlsystem Lösungshinweise
++------------------------------>
+
+**1. Beschreiben Sie das Funktionsprinzip der Thermosiphonkühlung.**
+
+- *physikalische Prinzip* wärmeres, leichteres Wasser (geringe Dichte) steigt nach oben und kälteres, schwereres Wasser (höhere Dichte) sinkt nach unten.
+- Anwendung: Motor abstellen, dann kommt es zum Kühlmittelfluss ohne Pumpe
+
+Die Umwälzung des Kühlmittels erfolgt bei der Thermosiphon bzw. Wärmeumlaufkühlung durch die temperaturbedingte Dichteänderung des Kühlmittels.
+
+Erwärmt der Motor das Kühlmittel, sinkt dessen Dichte und steigt leichter als das übrige Kühlmittel nach oben in den Kühler.
+
+Hier nimmt die Dichte des Kühlmittels wieder zu. Fällt nach unten und wird dem Motor von unten wieder zugeführt.
+
+**2. Warum gibt es bei der Zwangsumlaufkühlung zwei verschiedene Kühlkreisläufe?**
+
+Um ein schnelles Erreichen der Betriebstemperatur zu gewährleisten. 
+
+In der Warmlaufphase soll die Temperatur mithilfe des kleinen Kühlkreislaufs bestmöglich im Motor gehalten und verteilt werden. 
+
+Hat der Motor Betriebstemperatur erreicht, wird überschüssige Wärme über den großen Kühlkreislauf an die Umgebung abgegeben. Das dynamische Zu- und Abschalten des großen Kreislaufes erfolgt in der Regel mittels eines Dehnstoffthermostates.
+
+
+**3. Beschreiben Sie stichwortartig Aufbau und Funktion des elektronischen Thermostats.**
+
+Das elektronische Thermostat oder auch kennfeldgeregeltes Thermostat besteht aus einem Ventil und einem Dehnstoffelement, welches mittels einer PTC-Heizung zusätzlich erwärmt werden kann. 
+
+Es wird eingesetzt, um die Motortemperatur höher als sonst üblich ansteigen lassen zu können. Hierdurch würde der Kraftstoffverbrauch und der Ausstoß von HC, CO, $CO_2$, PM reduziert. 
+
+Sollte hierdurch der $NO_x$ - Ausstoß zu stark ansteigen, kann das Steuergerät das Dehnstoffelement beheizen und hierdurch die Motortemperatur absenken.
+
+Um den Motor auch bei Ausfall der Elektronik vor schädlichen Übertemperatur zu schützen, öffnet das Dehnstoffelement bei ca. $110^\circ\text{C}$ selbsttätig.
+
+(Bemerkung: Zündfähiges homogen-mager-Gemisch, kurz über Zündgrenze, PTC ist selbstregelnd)
+
+**4. Nennen Sie Ursachen und Wirkungen von Kavitation.**
+
+Zur Kavitation kommt es bei starken Druckgefällen in einem Hydrauliksystem. Diese können zum einen durch das strömende Medium (Strömungskavitation) und zum anderen durch schwingende Bauteile (Schwingungskavitation) entstehen.
+
+Kavitation mindert zunächst den Wirkungsgrad. Infolge von Kavitation kommt es zu einer Materialverdichtung, die bei anhaltender Kavitation zu einem Ausbruch von Material führt.
+
+Dieses wiederum kann im System zu Erosionsschäden führen.
+
+**5. Wie funktioniert ein Lüfterantrieb mit Visco – Kupplung?**
+
+Im kalten Zustand dreht sich ein Kupplungskörper um eine Antriebsscheibe. Ein Pumpenkörper fördert Silikonflüssigkeit aus dem Arbeitsraum in einen Vorratsraum, aus dem sie nicht mehr entweichen kann. 
+
+Hat die Kupplung ihre vordefinierte Einschalttemperatur erreicht, so öffnet ein Bimetallstreifen mittels eines Schaltstiftes das Blattfederventil, welches den Zulauf zum Arbeitsraum freigibt.
+
+Die Silikonflüssigkeit tritt in den Arbeitsraum und verbindet die Antriebsscheibe mit dem Pumpenkörper und der Zwischenscheibe.
+
+Der Lüfter dreht sich. Die Silikonflüssigkeit fließt kontinuierlich von Arbeitsraum in einen Vorratsraum und über das Ventil zurück.
+
+Nach dem Abschalten des Lüfters durch den Bimetallstreifen wird die Silikonflüssigkeit in den Vorratsraum zurück gefördert, kann aus diesen aber nicht mehr entweichen. Die Lüfterkupplung trennt.
+
+**6. Worin liegen die Vorteile eines elektrischen Lüfterantriebs?** (Prüfung)
+
+- Gestufte oder stufenlose Drehzahlanpassung möglich
+
+- Lüfter kann auch bei abgestelltem Motor betrieben werden 
+    - Vermeidung von Hitzestau
+
+- Kühler kann unabhängig von der Lage des Motors eingebaut werden
+
+- Antriebsmoment wird nicht von der Kurbelwelle abgezweigt
+    - hierdurch haben wir eine höhere nutzbare Antriebsleistung
+    - Geringeren Kraftstoffverbrauch
+    - Geringerer Schadstoffausstoß
+
+**7. Was ist ein hydrostatischer Lüfterantrieb? Wo wird ein hydrostatischer Lüfterantrieb i.d.R. eingesetzt?**
+
+- Anwendung: Kommt in modernen Omnibusbereichen zum Einsatz (bei Fahrzeugen, die keinen Fahrtwind ausgesetzt sind).
+
+Bei einem hydrostatischen Lüfterantrieb wird mittels einer vom Motor angetrieben Hydraulikpumpe Öldruck erzeugt, welche zum Antrieb eines Hydrokonstantmotors eingesetzt wird und an dessen Welle sich wiederum der eigentliche Lüfter befindet. Die Regelung erfolgt in der Regel mittels Öldrucksteuerung.
+

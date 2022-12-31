@@ -1,7 +1,7 @@
 <!-----------------------------------------------
 Alle Abbildungen 'images/' in Markdown speichern.
 	* 'archiv/input-img.txt'
-ju 17-Sep-2022 input-img.txt
+ju 26-Dez-2022 input-img.txt
 ------------------------------------------------->
 
 
@@ -38,11 +38,6 @@ ju 17-Sep-2022 input-img.txt
 <!--05_Dreiventiltechnik_Skizze vgl. abb.-->
 
 ![05_Dreiventiltechnik_Skizze](images/Skizze/05_Dreiventiltechnik_Skizze.pdf){width=60%}
-
-
-<!--Klimakreislauf-1 vgl. abb.-->
-
-![Klimakreislauf-1](images/Skizze/Klimakreislauf-1.pdf){width=60%}
 
 
 <!--Mischungs-Luftverhaeltnis vgl. abb.-->
@@ -90,11 +85,6 @@ ju 17-Sep-2022 input-img.txt
 ![Logo2](images/Logo/Logo2.pdf){width=60%}
 
 
-<!--Logo3 vgl. abb.-->
-
-![Logo3](images/Logo/Logo3.pdf){width=60%}
-
-
 <!--logo-eps-converted-to vgl. abb.-->
 
 ![logo-eps-converted-to](images/Logo/logo-eps-converted-to.pdf){width=60%}
@@ -103,10 +93,5 @@ ju 17-Sep-2022 input-img.txt
 <!--logo vgl. abb.-->
 
 ![logo](images/Logo/logo.pdf){width=60%}
-
-
-<!--titelbild vgl. abb.-->
-
-![titelbild](images/Logo/titelbild.pdf){width=60%}
 
 

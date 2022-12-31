@@ -1,0 +1,256 @@
+%ju 26-Dez-22 09-Loesung-Common-Rail-Diesel-II.tex
+\textbf{1) Beschreiben Sie ausführlich den Einspritzvorgang beim
+Pumpe--Düse--System mit Magnetventil.}
+
+\textbf{Befüllen} bei ablaufenden Einspritznocken wird der Pumpenkolben
+nach oben gezogen und der Hochdruckraum wird mit Kraftstoff befüllt.
+Solange Magnetventil offen ist, fließt der Kraftstoff durch den
+Hochdruckraum in den Rücklauf ab. (kühlende Wirkung) Bei auflaufenden
+Nocken wird der Pumpenkolben nach unten gedrückt. Magnetventil ist
+geschlossen und verschließt Kraftstoff, Vor- und Rücklaufleitung. Es
+baut sich ein Hochdruck auf.
+
+\textbf{Voreinspritzung} (Beginn) bei etwa 180 bar ist der Druck größer
+als die Düsen-Federkraft. Durch das Einspritzen des Kraftstoffs haben
+wir einen kurzen Druckabfall und die Düsennadel schließt (Ende). Der
+Ausweichkolben hat seine schräge Druckschulter freigegeben (große
+Fläche, große Kraft), wodurch er nach unten gedrückt wird und spannt die
+Düsenfeder vor. Magnetventil öffnet und der überschüssige Kraftstoff
+entweicht in die Vor- und Rücklaufleitung.
+
+\textbf{Haupteinspritzung} der Druck steigt weiter und drückt bei etwa
+300 bar die Düsennadel nach oben (Ende). Durch den Druckabfall schließt
+die Düsennadel.
+
+\textbf{2) Wie lässt sich beim Pumpe--Leitung--Düse--System eine
+Voreinspritzung realisieren?} (NFZ)
+
+Durch Zweifeder-Düsenhalter (kleine Feder - Voreinspritzung, große Feder
+- Haupteinspritzung). Bei geringem Kraftstoffdruck öffnet die Düse nur
+teilweise.
+
+\textbf{3) Welche Hauptvorteile bietet das Common--Rail--System
+gegenüber allen anderen gängigen Einspritzsystemen?}
+
+\begin{itemize}
+\item
+  Einspritzmenge lässt sich über Zeit und Einspritzdruck variieren (je
+  nach Betriebszustand)
+\item
+  Kein Druckanstieg im Einspritzvorgang: (der Öffnungsdruck entspricht
+  dem jeweiligen Einspritzdruck)
+\item
+  beliebige Anzahl von Einspritzvorgängen (ruhigen Motorleerlauf viele
+  Einspritzungen, für maximales Drehmoment bei Volllast nur eine)
+\item
+  Einspritzung unabhängig von Kurbelwellen- und Nockenwellenposition
+  (Kraftstoffdruck steht immer an)
+\item
+  Anpassung an unterschiedliche Motoren
+\end{itemize}
+
+\textbf{4) Welche Regelungsarten des Common--Rail--Systems kennen Sie?}
+
+\begin{enumerate}
+\item
+  \textbf{Einsteller-Regelung}
+
+  \begin{itemize}
+  \item
+    \textbf{Druckregelung hochdruckseitig} über ein
+    \textbf{Druckregelventil} (DRV)
+
+    \begin{itemize}
+    \item
+      Hochdruckpumpe fördert die maximale Fördermenge unabhängig von
+      Bedarf an Kraftstoff
+    \item
+      Raildruck wird über ein \textbf{Druckregelventil} geregelt, nicht
+      benötigter Kraftstoff fließt zurück in den Tank
+    \item
+      \textbf{Vorteil}
+
+      \begin{itemize}
+      \item
+        schneller Druckaufbau möglich
+      \item
+        bei Lastwechsel agil
+      \end{itemize}
+    \item
+      \textbf{Nachteil:} Hochdruckpumpe ist, konstant maximal belastet,
+      dadurch
+
+      \begin{itemize}
+      \item
+        geringere Nutzleistung
+      \item
+        erhöhter Kraftstoffverbrauch, Schadstoffausstoß, Verschleiß
+      \item
+        unnötige Erwärmung des Kraftstoffs
+      \end{itemize}
+    \end{itemize}
+  \item
+    \textbf{Druckregelung niederdruckseitig} (Mengenregelung) über eine
+    \textbf{Zumesseinheit} (ZME)
+
+    \begin{itemize}
+    \item
+      \textbf{Zumesseinheit} regelt die Zuflussmenge zur Hochdruckpumpe
+    \item
+      \textbf{Bedarfsregelung}, d.h. es gelangt nur so viel Kraftstoff
+      zu Hochdruckpumpe wie für die Einspritzung benötigt wird
+    \item
+      \textbf{Druckbegrenzungsventil} verhindert zu hohen Raildruck bei
+      Ausfall der Zumesseinheit
+    \item
+      \textbf{Vorteil}
+
+      \begin{itemize}
+      \item
+        bedarfsgerechte Förderung
+      \item
+        Reduzierte Leistungsaufnahme der Pumpe
+      \end{itemize}
+    \item
+      \textbf{Nachteil:}
+
+      \begin{itemize}
+      \item
+        hohe Trägheit
+      \item
+        Drucksteigerung erfordert zunächst eine Erhöhung des
+        Niederdrucks, dadurch erhöhte Förderleistung der Hochdruckpumpe
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Zweisteller-Regelung} (\textbf{Druckregelung nieder- und
+  hochdruckseitig})
+
+  \begin{itemize}
+  \item
+    Zusammenspiel von Zumesseinheit (ZME) und Druckregelventil (DRV)
+  \item
+    \textbf{Vorteile}
+
+    \begin{itemize}
+    \item
+      geringe Leistungsaufnahme der Hochdruckpumpe bei konstant hohen
+      Drücken
+    \item
+      hohe Agilität bei geringen Drücken
+    \end{itemize}
+  \item
+    \textbf{Kaltstart / Motorstart und Warmlaufphase} (angesteuert:
+    \textbf{DRV}) >>Druckregelung hochdruckseitig geregelt<<
+
+    \begin{itemize}
+    \item
+      Schneller Druckaufbau möglich. Bessere Kraftstoffvorwärmung.
+      Verzicht auf Kraftstoffheizung möglich.
+    \item
+      Kraftstoff soll sich erwärmen, um ihn damit fließ- und zündfähiger
+      zu machen
+    \end{itemize}
+  \item
+    \textbf{betriebswarmer Motor: Leerlauf / Teilllast / Schub}
+    (angesteuert: \textbf{DRV und ZME}) >>Zweisteller-Betrieb<<
+
+    \begin{itemize}
+    \item
+      große Sprünge des Raildrucks sind wahrscheinlich (zwischen Motor
+      im Leerlauf / Teillast und $\to$ Lastwunsch des Fahrers bei
+      Volllast)
+    \item
+      Raildruckregelung bei reduzierter Leistungsaufnahme der Pumpe
+    \end{itemize}
+  \item
+    \textbf{hohen Motorlast} (angesteuert: \textbf{ZME}) >>Druckregelung
+    niederdruckseitig geregelt<<
+
+    \begin{itemize}
+    \item
+      große Steigerungen des Raildrucks nicht möglich und deshalb ist
+      die Trägheit vernachlässigbar
+    \item
+      Reduzierter Leistungsaufnahme der Pumpe. Gesamte Kraftstoffmenge
+      der Pumpe wird eingespritzt.
+    \end{itemize}
+  \end{itemize}
+\end{enumerate}
+
+\textbf{5) Was passiert, wenn das Druckregelventil eines
+Common--Rail--Systems ausfällt?}
+
+Da das Druckregelventil im spannungsfreien Zustand nur ca. 100 bar
+halten kann, der CR-Motor aber, um anzuspringen, 250 bar benötigt, läuft
+der Motor bei Ausfall des Druckregelventils nicht.
+
+\textbf{6) Warum wird der Druck in der Rail bei kaltem Motor
+ausschließlich über das Druckregelventil geregelt?}
+
+Um den Kraftstoff schneller zu erwärmen, um ihn damit fließ- und
+zündfähiger zu machen.
+
+\textbf{7) Welche Spannung ist zum Öffnen eines Magnetspuleninjektors
+notwendig? Wie wird diese erzeugt?}
+
+Um den Magnetventilspuleninjektor zu öffnen, wird eine Spannung von ca.
+100 V bei einer Stromstärke von 20 A benötigt. Diese entsteht als
+Selbstinduktionsspannung im Abschaltmoment des Injektors und wird im
+Steuergerät in sogenannten Boosterkondensatoren gespeichert. Sind die
+Boosterkondensatoren entladen, kann das Steuergerät die Entstehung einer
+Selbstinduktionsspannung provozieren, in dem es die Injektoren mehrfach
+mit Bordnetzspannung an taktet, wodurch diese zwar nicht öffnen, jedoch
+die erforderliche Selbstinduktionsspannung entstehen kann.
+
+\textbf{8) Welche Vorteile bietet der Piezoinjektor gegenüber dem
+Magnetspuleninjektor? Erläutern Sie den technischen Hintergrund.}
+
+Während die Anzahl der Einspritzvorgänge pro Arbeitstakt beim
+Magnetspuleninjektor auf maximal fünf begrenzt ist, da es bei jeden
+Magnetfeldaufbau in ihm zu einer Gegeninduktion kommt, die den
+Magnetfeldaufbau hemmt und den einzelnen Einspritzvorgang damit
+verlangsamt, kann der Piezoinjektor problemlos sieben und mehr
+Einspritzvorgänge pro Arbeitstakt realisieren.
+
+\textbf{9) Beschreiben Sie den Aufbau einer elektronisch geregelten
+Glühstiftkerze. Wie schafft man es, dass diese Glühkerze deutlich
+schneller auf Glühtemperatur ist, als die herkömmliche Glühkerze?}
+
+Die elektronisch geregelte Glühstiftkerze besteht wie auch die
+herkömmlich Selbstregelnde Glühkerze aus einer Heiz- und einer
+verkürzten Regelwendel. Sie besitzt allerdings nur eine Nennspannung von
+5 -- 8 V, um die Glühkerze besonders schnell auf Glühtemperatur zu
+bekommen, wird sie durch ein PWM-Signal kurzzeitig mit ca. 11 V
+angesteuert, also eigentlich überlastet. Hierdurch erreicht sie binnen 1
+-- 2 Sekunden eine Glühtemperatur von bis zu $1000^\circ\text{C}$
+bevor das Tastverhältnis, das PWM-Signal so weit verändert, dass an der
+Glühkerze nur ihre Nennspannung anliegt. Die ausreichend ist, um sie auf
+Temperatur zu halten.
+
+\textbf{10) Welche Möglichkeiten der Motor- und Innenraum-Zuheizung
+kennen Sie. Nennen Sie Vor- und Nachteile der einzelnen Systeme.}
+
+\begin{table}[!ht]% hier: !ht 
+\centering 
+	\caption{}% \label{tab:}%% anpassen 
+\begin{tabular}{@{}lcccc@{}}
+\hline
+\textbf{System} & \textbf{Innenraum} & \textbf{Innenraum + Motor} &
+\textbf{Energie} & \textbf{Kühlen} \\
+\hline
+Kraftstoff-Zuheizer & & \checkmark & \checkmark & \\
+PTC-Heizung & \checkmark & & \checkmark & \\
+Elektrisches Zuheizsystem & & \checkmark & \checkmark & \\
+Abgas-Wärmetauscher & \checkmark & & & \\
+Wassergekühlter Generator & & \checkmark & & \checkmark \\
+Kraftstoff-Wärmetauscher & & \checkmark & & \checkmark \\
+\hline
+\end{tabular} 
+\end{table}
+
+\textbf{Motorzuheizung} nach Motorstart wird beheizt.
+
+(\textbf{Standheizung} ca. 10 Minuten vorheizen, bei Motorstart schon
+warm.)

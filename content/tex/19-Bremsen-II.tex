@@ -1,0 +1,273 @@
+%ju 26-Dez-22 19-Bremsen-II.tex
+\section{Grundlagen der
+Fahrdynamikregelung}\label{grundlagen-der-fahrdynamikregelung}
+
+\textbf{Kammscher Reibkreis}, die größte auf die Straße übertragbare
+Kraft wird als Kreis dargestellt.
+
+Die Kraft, die ein Rad maximal übertragen kann, setzt sich aus der
+Aufstandskraft des Rades und der Haftreibung zwischen Reifen und
+Fahrbahn zusammen.
+
+\begin{itemize}
+\item
+  \emph{Innerhalb des Kreises} Kräfte übertragen
+\item
+  \emph{Außerhalb des Kreises} Schlupf
+\item
+  $F_\text{max} = F_N \cdot \mu_H$ (Antriebskraft, Bremskraft,
+  Normalkraft, Haftreibungszahl)
+\item
+  $\mu = 0,1$ Eis
+\item
+  \textbf{stabilen Fahrzustand} Resultierende Kraft aus Umfangskraft und
+  Seitenführungskraft muss innerhalb des Kreises liegen
+\item
+  \textbf{durchdrehende oder blockierende Räder}
+
+  \begin{itemize}
+  \item
+    Umfangskraft max. und
+  \item
+    Seitenführungskraft 0
+  \item
+    Fahrzeug ist nicht mehr lenkbar
+  \end{itemize}
+\item
+  \textbf{max. Kurvengeschwindigkeit}
+
+  \begin{itemize}
+  \item
+    Seitenführungskraft max.
+  \item
+    Fahrzeug kann weder gebremst noch beschleunigt werden (würde
+    ausbrechen)
+  \end{itemize}
+\end{itemize}
+
+\textbf{Schlupf}
+
+Das Verhältnis der Fahrgeschwindigkeit zu Radumfangsgeschwindigkeit oder
+das Verhältnis der tatsächlich zurückgelegten Wegstrecke zum dynamischen
+Abholumfang. (blockiert ein Rad, dann ist der Schlupf 100 \%)
+
+\textbf{dynamischen Abrollumfang}
+
+\begin{itemize}
+\item
+  Reifenaufstandsfläche = Latsch
+\item
+  Wenn sich das Rad dreht, verändert sich der Reifenumfang, als wenn das
+  Fahrzeug steht.
+\item
+  Verlängerung des Weges durch Schlupf oder Verformung des Reifens.
+\end{itemize}
+
+\textbf{Typgenehmigung} für ABS nein und ESP ja
+
+\section{ABS}\label{abs}
+
+\textbf{ABS-Arbeitsbereich}
+
+\textbf{stabilen Bereich}, um ein ausreichendes Maß an
+Seitenführungskraft bereitstellen zu können. Zwischen 8 -- 35 \%
+Schlupf.
+
+\textbf{ABS-Aufgaben}
+
+\begin{itemize}
+\item
+  Erhalt der Seitenführungskraft durch Begrenzung der maximalen
+  Bremskraft
+\item
+  Vermeidung von Bremsplatten
+\end{itemize}
+
+\textbf{Maximale Bremskraft} Übergang von Haftreibung zur Gleitreibung
+
+\textbf{ABS-Funktion}
+
+\begin{itemize}
+\item
+  Erfassen der Raddrehzahlsignale, die miteinander verglichen werden
+\item
+  weicht ein Rad ab und bei kritischen Schlupfwerten
+\item
+  wird die Bremskraft begrenzt durch \textbf{3x Regelphasen}
+\item
+  Regelzyklus 4 -- 10x pro Sekunde (10 Hz)
+\end{itemize}
+
+\begin{enumerate}
+\item
+  \textbf{Druck halten}
+
+  \begin{itemize}
+  \item
+    Einlassventil wird geschlossen und Druck an Radbremse konstant
+    gehalten.
+  \end{itemize}
+\item
+  \textbf{Druck ablassen}
+
+  \begin{itemize}
+  \item
+    Auslassventil wird geöffnet und Bremsdruck wird gesandt.
+  \end{itemize}
+\item
+  \textbf{Druck aufbau}
+
+  \begin{itemize}
+  \item
+    Sinkt der Schlupf auf unkritischer Werte, öffnet das Einlassventil
+    und wird mit maximaler Bremskraft verzögern.
+  \end{itemize}
+\end{enumerate}
+
+\textbf{Regelungsarten des ABS}
+
+\begin{enumerate}
+\item
+  \textbf{Select-Low-Regelung} (HA)
+
+  \begin{itemize}
+  \item
+    Das Rad mit der geringeren Bodenhaftung bestimmt den gemeinsamen
+    Bremsdruck einer Achse.
+  \end{itemize}
+\item
+  \textbf{Individualregelung} (VA)
+
+  \begin{itemize}
+  \item
+    wird jedem Rad die maximale übertragbare Bremskraft zugeteilt.
+  \item
+    Unterschiedliche Bremskräfte wirken.
+
+    \begin{itemize}
+    \item
+      Ein Giermoment entsteht in Richtung des Rades mit der größeren
+      Haftung. Kann durch Gegenlenken, ausgeglichen werden. (Vgl.
+      Negativer Lenkrollradius)
+    \end{itemize}
+  \end{itemize}
+\end{enumerate}
+
+\textbf{Negativer Lenkrollradius} (Lenkrollhalbmesser) an Vorderachse
+
+Erzeugt ein automatisches Gegenlenken, d.h. der Reifen schwenkt nach
+innen an der Vorderachse.
+
+\textbf{ABS-Sensoren}
+
+\begin{itemize}
+\item
+  Geschwindigkeit von ca. 6 km/h notwendig
+\item
+  Induktiv-Sensor (Bosch: passiv)
+
+  \begin{itemize}
+  \item
+    Spule und Magnetfeld $\to$ Wechselspannung
+  \end{itemize}
+\item
+  Hall-Sensor (Bosch: aktiv)
+
+  \begin{itemize}
+  \item
+    eigene Spannungsversorgung
+  \item
+    Kabel kann 2-adrig sein (Masseleitung = Signalleitung)
+  \item
+    Stromsignal an SG
+  \item
+    Prüfen: Strommessung
+  \end{itemize}
+\end{itemize}
+
+\textbf{Regelkanäle von ABS}
+
+\begin{enumerate}
+\item
+  2 Kanal ABS-System (VA und HA)
+\item
+  3 Kanal ABS-System (VA rechts + links und HA)
+\item
+  4 Kanal ABS-System (4S4M, Sensoren und Modulatoren)
+\end{enumerate}
+
+\section{ASR}\label{asr}
+
+Erfassung des Radschlupfs an den Antriebsrädern durch Abgleichen der
+Drehzahlsignale. Bei kritischen Schlupfwerten begrenzen der
+Antriebskraft durch Verringern des Motordrehmoments oder Bremseingriff.
+
+\section{FDR / ESP}\label{fdr-esp}
+
+Fahrdynamische Prozesse erfassen und autonom regeln.
+
+\textbf{Systeme}
+
+\begin{enumerate}
+\item
+  (+) Antiblockiersystem (ABS)
+\item
+  (+) Elektronische Bremskraftverteilung (EBV)
+\item
+  (+) Antriebsschlupfregelung (ASR) mit Motorschleppmoment-Regelung
+  (MSR)
+\item
+  (+) Giermomentregelung (GMR)
+\item
+  (=) Fahrdynamikregelsystem (FDR) = Elektronisches Stabilitätsprogramm
+  (ESP)
+\end{enumerate}
+
+\textbf{Komponenten}
+
+\begin{enumerate}
+\item
+  Hydraulikeinheit
+\item
+  Lenkwinkelsensor
+\item
+  Tandem-Hauptzylinder mit Drucksensoren
+\item
+  Querbeschleunigungs- und Gierratensensor
+\item
+  Raddrehzahlsensor
+\item
+  Motormanagement
+\end{enumerate}
+
+\textbf{Gierratenerfassung}
+
+Erfassen der Drehbewegung des Fahrzeugs um seine eigene Hochachse
+mithilfe der Corioliskraft (Piezo-Element wird gestaucht oder gestreckt
+$\to$ SG).
+
+\textbf{Bewegungen und Kräfte des Fahrzeugs}
+
+\begin{enumerate}
+\item
+  Hochachse - Gieren (Schleudern, Drehbewegung)
+
+  \begin{itemize}
+  \item
+    Radlast, Kräfte durch Fahrbahnunebenheiten
+  \end{itemize}
+\item
+  Längsachse - Wanken (Kippbewegung)
+
+  \begin{itemize}
+  \item
+    Antriebskraft, Bremskraft, Reibungskraft
+  \end{itemize}
+\item
+  Querachse - Nicken (Drehbewegung)
+
+  \begin{itemize}
+  \item
+    Fliehkraft, Seitenwindkraft, Seitenführungskraft
+  \end{itemize}
+\end{enumerate}

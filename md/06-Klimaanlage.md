@@ -18,7 +18,7 @@ FS ([@bell:2020:formelsammlung] S. 32 - 37)
 ^\circ\text{C}
 #
 ## 
-ju 20-8-22 Klimaanlage
+ju 5-10-22 Klimaanlage
 +----------------------------------------------------->
 
 # Aktive und Passive Sicherheit
@@ -96,7 +96,7 @@ vs.
 ## Erkläre den Kältemittelkreislauf 
 
 <!--Klimakreislauf-1 vgl. abb.-->
-![Klimakreislauf](images/Skizze/Klimakreislauf-1.pdf){width=70%}
+![Klimakreislauf](images/Klima/Klimakreislauf-1.pdf){width=70%}
 
 1. **Kompressor** (Gasverdichter, gasförmig, Verdichten, Druck steigt) saugt das abgekühlte gasförmige Kältemittel an und verdichtet es. Druck und Temperatur steigt (Druckanstieg). Das Kältemittel erwärmt sich, wird aber nicht komplett flüssig. Deshalb schieben wir es durch den Kondensator.
 

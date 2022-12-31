@@ -17,7 +17,7 @@ Tabellenbuch ([@bell:2021:tabellenbuchKfz] S. 281)
 FS ([@bell:2020:formelsammlung] S. 32 - 37)
 #
 ## 
-ju 28-6-22
+ju 28-10-22
 +----------------------------------------------------->
 
 # Was ist ein Untengesteuerter Motor? 
@@ -130,18 +130,15 @@ Fachbuch ([@brand:2020:fachkundeKfz] S. 247)
 
 # Unterschied - Steuern und Regeln
 
-## Steuern
+**Steuern** Soll-Ist-Vergleich 
 
-Soll-Ist-Vergleich 
+z. B. *Steuerkette*: Markierung soll auf OT stehen, alles in Ordnung, wenn nicht, dann defekt.
 
-z. B. *Steuerriemen*: Markierung soll auf OT stehen, alles in Ordnung, wenn nicht, dann defekt.
+**Regeln** Soll-Ist-Vergleich mit der Option des Eingriffs 
 
-## Regeln
-
-Soll-Ist-Vergleich mit der Option des Eingriffs 
-
-z. B. *ABS Regelkreis*: SG erfasst Drehzahlsignal, 
+z. B. Steuerrad Kapitän, *ABS Regelkreis*: SG erfasst Drehzahlsignal, 
 Drehen alle Räder gleich schnell, alles okay. Dreht ein Rad schneller $\to$ aktiver Eingriff ins System.
+
 
 
 # Nockenwellen - Herstellungsmöglichkeiten

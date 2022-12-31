@@ -14,7 +14,7 @@ Dozent:
 ## 
 Quelle: Schmidt S. 87 ([ schmidt:2015:klima]).
 Leistungsverzweigter Hybrid S. 52 ([ schmidt:2021:hybrid]).
-Antriebskonzepte S. 1000 ([ reif:2022:boschkraftfahrtechnisches]).
+Antriebskonzepte S. 1000 ([@reif:2022:boschkraftfahrtechnisches]).
 ju 2-9-22
 +------------------------------>
 

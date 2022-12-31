@@ -14,11 +14,12 @@ Thema:  Betriebs- und Hilfsstoffe
 Fachbuch ([@brand:2020:fachkundeKfz] S. 243)
 Fachbuch ([@respondeck:2019:servicetechniker] S. 142)
 Tabellenbuch ([@bell:2021:tabellenbuchKfz] S. 281)
+Bosch S. 562 ([@reif:2022:boschkraftfahrtechnisches]).
 FS ([@bell:2020:formelsammlung] S. 32 - 37)
 ^\circ\text{C}
 #
 ## 
-ju 11-9-22
+ju 5-11-22
 +----------------------------------------------------->
 
 # Was sind Betriebsstoffe?
@@ -69,9 +70,12 @@ Rest in **Reibung und Wärme**
 
 **Warum ist ein Dieselmotor effizienter als ein Ottomotor?**
 
-- Energiedichte höher
+- Energiedichte des Kraftstoff ist höher
 - Wirkungsgrad höher gegenüber Ottomotor 
 - Wärmeabführung geringer
+- höherer Verdichtungsdruck, höherer Expansionsgrad, höhere Effizienz
+- keine Drosselverluste, weil keine Drosselklappe
+
 
 # Herstellung von Kraftstoffen
 
@@ -210,7 +214,7 @@ Maßnahmen, um die Klopffestigkeit zu erhöhen
 
 **Siedebereich** zwischen $170^\circ\text{C} \text{ und } 380^\circ\text{C}$ 
 
-**Selbstentzündungstemperatur** ca. $220~^\circ\text{C}$
+**Selbstzündungstemperatur** (untere Grenze) $220^\circ\text{C}$ (im Mittel) bei ca. $350^\circ\text{C}$ Quelle: Bosch S. 562 ([@reif:2022:boschkraftfahrtechnisches]).
 
 ## Additivierung / Additive und Auswirkung
 
